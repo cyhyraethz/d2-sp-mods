@@ -1,0 +1,19 @@
+[SGD2FreeDisplayFix 1.0.1.0 (March 17, 2021)]
+- Refactor and compile on Visual C++ 6.0.
+  - Improve compatability with every Windows system that can play
+    Diablo II.
+  - Remove requirement to install C/C++ runtime files, as they are
+    included with every Windows since Windows 95 OSR 2.
+
+Known issues:
+- Loading the DLL while in Glide mode too early into the game process
+  results in unusable visuals.
+
+[SGD2FreeDisplayFix 1.0.0.0 (December 29, 2019)]
+- Supports all versions of the game.
+- Fixes the symbol cycling issue on startup in 1.13D and below by
+  backporting 1.14's fix.
+- Restores registry reading functionality in 1.14 and above by porting
+  1.13D's functionality. This also restores DirectDraw mode, which had
+  been disabled.
+- Depends on VS2019.

@@ -1,0 +1,2100 @@
+--------------------------------------------------------------------------
+  Diablo II Version History
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+- Patch 1.13c
+--------------------------------------------------------------------------
+
+     A new Mystery has been revealed!
+
+- Adventurers of Sanctuary are hereby warned once again, that a new challenge
+  awaits you. Within Diablo's Bosses, spanning across the world from the
+  ancient Monastery Catacombs to the Throne of Destruction, is where you'll
+  find what you seek...
+
+
+     Major Bugs
+     
+- Fixed an item dupe bug.
+- Video improvements for Intel Mac machines with OS 10.5 or greater.
+- Fixed an issue where some players could kill other players while in town
+  ("TPPK").
+- Fixed an issue where some players could disconnect other players when
+  they had too many active states.
+- Fixed two issues where players could stack auras in an unintended way.
+
+
+     Minor Bugs
+     
+- Uber Mephisto now checks for both Uber Baal and Uber Diablo to be killed
+  before spawning summoned minions (Before he would only check for Uber Baal).
+- The game will no longer stop and then restart the game music after the
+  window loses and then regains focus.
+- Fixed an issue where the game window would minimize when running in
+  windowed mode when it lost focus.
+- Fixed an issue where the game window wouldn't center properly when it
+  was created.
+- Fangskin should now properly drop loot in Hell difficulty.
+- Fixed an issue where auras were not re-applied to your mercenary after
+  it was resurrected.
+- Fixed an issue where if you had two items which provided auras to
+  a mercenary and you unequipped one, the aura from the remaining
+  item never became active.
+- Fixed an issue where the Paladin class runeword 'Principle' wasn't
+  having all of its stats applied properly.
+- Fixed an issue where the Paladin's Charge ability would become locked
+  out if Holy Shield faded while charging.
+- Fixed an issue where the Barbarian's Leap ability could become locked
+  out if they were hit when they started to leap.
+
+
+     Specific changes/improvements     
+
+- Respecialization is now possible! Completing the 'Den of Evil' quest
+  will now additionally reward 1 free respec which can be saved. Players
+  who have already completed this quest should receive 1 free respec in
+  Hell difficulty.
+- Increased the drop rate of high runes.
+- Support for blit scaling in windowed mode. The game can now be
+  maximized to the largest 4:3 resolution supported (hooray widescreen users).
+- Some rare drop items now have an orange color. i.e. Runes and items
+  required for Uber Tristam.
+- Modified the gold bank limit to be a flat cap not bound by level.
+- Removed the requirements to create a hardcore character.
+- Greatly reduced the explosion damage dealt by Fire Enchanted monsters.
+- Uber Mephisto and Uber Baal's summoned minions no longer give experience.
+- Removed Oblivion Knight's Iron Maiden curse.
+- Hellfire Torch Firestorm proc rate has been reduced to 5%.
+- Users can now toggle the display of text over the Health and Mana
+  globes by clicking on the bottom area of each orb.
+- When creating a single player game, each difficulty button is now bound
+  to a unique key: Normal 'R', Nightmare 'N', and Hell 'H'.
+- The 'Enter Chat' Button in the battle.net waiting room is now
+  bound to the 'Enter' key.
+- Added the windows system buttons to the game window (MIN, MAX, CLOSE).
+- Added new command line parameter '-nofixaspect' which allows users to
+  not fix the aspect ratio to 4:3 when maximizing in windowed mode.
+  This lets the game 'stretch' to fill your monitor.
+- Added support for '-sndbkg' command line switch. This enables sound
+  in background.
+- Added the following aliases for pre-existing command line options,
+  '-nosound', '-window', and '-windowed'.
+
+
+     Revised Skill balance for Player Character classes
+
+
+     Amazon
+     
+- Immolation Arrow - Increased radius of Explosion effect by 33% and
+  Immolation effect by 50%.
+- Immolation Arrow - Explosion effect damage increased by 20%.
+- Immolation Arrow - Increased base duration by 33%.
+
+
+     Assassin
+
+- Dragon Claw - Synergy receives 4% additional damage per point of Claw Mastery.
+- Dragon Talon - The bonus to Attack Rating per point has been increased to 35.
+- Shadow Master - Increased resistance range per point from 5-80 to 5-90.
+- Combo points awarded by combo moves now last 15 seconds, up from 9.
+
+
+     Barbarian
+     
+- Whirlwind - Reduced initial mana cost by 50%.
+- Masteries - Changed critical strike chance from 0-25 to 0-35.
+
+
+     Paladin
+     
+- Blessed Hammer - No longer ignores resistances of undead and demons.
+
+
+     Druid
+     
+- Werebear - Damage bonus increased by 15% across all ranks.
+- Werebear - Increased health by 25% and armor by 1% per point.
+- Shockwave - Synergy from Maul adds 5% damage per point.
+
+
+     Necromancer
+     
+- Blood Golem - Removed negative shared life effect (player no longer
+  loses life when the golem takes damage).
+- Corpse Explosion - Increased base damage dealt from 60% - 100%
+  to 70% - 120% of corpses health.
+- Poison Nova - Increased base damage by 15%.
+
+
+     Sorceress
+     
+- Firewall - Synergy receives 1% damage per point of Inferno and
+  4% per point of Warmth.
+- Blaze - Synergy receives 1% damage per point of Firewall
+  and 4% per point of Warmth.
+- Hydra - Increased base damage by 15% per rank.
+- Hydra - Increased base speed of Hydra projectile.
+- Hydra - Reduced cooldown by 25%.
+
+
+--------------------------------------------------------------------------
+- Patch 1.13b (Public Test Realm)
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+- Patch 1.13a (Public Test Realm)
+--------------------------------------------------------------------------
+
+--------------------------------------------------------------------------
+- Patch 1.12
+--------------------------------------------------------------------------
+
+     Downloadable Installer Support
+
+- If all required Diablo 2 '.MPQ' files are installed on the
+  hard drive, the game will no longer require the CD to play. 
+
+   For users that originally performed a 'Full Installation' 
+   and wish to run without the CD, all '.MPQ' files should 
+   be copied from the Diablo 2 CDs to the Diablo 2 directory.  
+   Most users will only need to copy D2Music.mpq from the 
+   Diablo 2 Play CD and/or D2xMusic.mpq from the Lord of 
+   Destruction CD.  Mac users will need to copy these music 
+   files and rename them to 'Diablo II Music' and 
+   'Diablo II Expansion Music' respectively. 
+
+   Anyone who did not perform a 'Full Installation' will need
+   to re-install from CD again to ultimately play without the CD.  
+   In this case, a 'Full Installation' is required, followed by file 
+   copy step noted above. 
+ 
+     Bug Fixes
+
+- Fixed an incompatibility between Rosetta and OpenGL mode on Intel Mac.
+
+--------------------------------------------------------------------------
+- Patch 1.11b
+--------------------------------------------------------------------------
+
+FIXES:
+- Fixed a bug that could cause a crash when you return to chat after
+  playing a game on Battle.net.
+- Fixed a bug that could cause a crash when the runeword "Peace" was
+  equipped on a hireling.
+
+--------------------------------------------------------------------------
+- Patch 1.11
+--------------------------------------------------------------------------
+
+
+     A new Mystery has been revealed!
+
+- Players of Hell Difficulty Realm games are hereby warned once again, 
+  that a series of new and challenging tests await you! The answer lies
+  within Diablo's Bosses, which span across the world from the Den of Evil 
+  to the Throne of Destruction...
+
+
+     New Items
+
+- Added 10 New Runewords.
+- Added new Unique Items that will drop from Special Bosses.
+
+
+     Hireling Enhancements
+
+- Players can purchase hirelings that are within 1-5 levels below their
+  own level.  
+- The rate at which hirelings gain experience has been increased.  They 
+  should now stay closer to the player's level.
+
+
+     Major Bugs
+
+- Creating a town portal when corpses or other objects entirely fill the
+  area where the portal will appear in town will no longer crash the game.
+- Skills obtained from runewords created while the item is equipped will
+  no longer disconnect you from Battle.net when chosen.
+- Barbarians will no longer become stuck when using Whirlwind right after
+  Inferno from the unique item Balrog Blade Flamebellow.
+- German, Spanish, and Polish users will no longer crash when the mouse
+  cursor moves over an item that grants an Aura while equipped.
+- The game will no longer crash when selecting a skill granted by a weapon
+  at the same time as switching weapons with the W key.
+- Dying or being requested to trade while changing the key configuration
+  will no longer cause you to get stuck.
+- The "Missile Firing too far" assertion error has been corrected.
+- Attempting to sell a Horadric Cube or a quest item to an NPC by holding
+  Control while clicking will no longer disconnect you from Battle.net.
+
+
+     Minor Bugs
+
+- Running the game with -install no longer causes the game to be installed
+  as a Windows Service.  -install is now ignored.
+- Sometimes the seals in Diablo's lair would not activate.  This has been
+  corrected.
+- Character expiration messages have been updated to reflect the
+  expiration policy implemented in patch 1.10.
+- Unidentified items sometimes caused other set items to display green for
+  items the player does not have.  This has been corrected.
+- The German mouseover text for the Ist rune has been corrected.
+- Account recovery is now allowed for existing accounts whose name is only
+  one or two characters.
+- When leaving a game on Battle.net, you will now be brought back to the
+  channel in which you were previously.
+- Transmuting an ethereal item now retains the ethereal stats bonuses.
+- In Japanese Lord of Destruction, items that add to all Assassin skills
+  incorrectly stated in their mouseover text that they added to all Druid
+  skills.  This has been corrected.
+- Battle.net messages for non-English versions have been corrected.
+
+
+     Fixed Game Exploits
+
+- It is no longer possible to bypass the 10-second hostility timer by
+  activating a waypoint at the same time as declaring hostility.
+- Uber Diablo is no longer killed when Shenk the Overseer or Blood Raven
+  die nearby.
+- Necromancers with Trang-Oul's Set equipped could sometimes become
+  invincible to attack.  This has been corrected.
+- Blessed Hammer no longer remains active while in town, preventing
+  players from subsequently declaring hostility and having the hammers hit
+  other players for damage.
+- Set items retained their multi-piece bonuses after the player died, even
+  though they were removed.  This has been corrected.
+- Items with skill-charging effects will no longer give synergy bonuses to
+  skills when equipped on a character without those skills.
+- Pasting from the Clipboard no longer allows the creation of characters
+  with more than one dash or underscore in their name.
+
+--------------------------------------------------------------------------
+- Patch 1.10
+--------------------------------------------------------------------------
+
+   
+     Mysterious World-event 
+
+- Players of Hell difficulty Realm games are hereby warned that a new,
+  challenging world-event has been added to Diablo II version 1.10.
+  Players of Hardcore characters should be even more wary when
+  encountering Superunique monsters during an active world event. Be
+  prepared to execute a hasty Save and Exit, if your situation seems too
+  dangerous.
+
+
+     Fundamental architecture changes/improvements
+
+- The skill and monster systems are now completely data-driven. Skill
+  balancing is simpler and quicker.  Monster control/populating/creation
+  is simpler. Although done for our needs, mod-makers should like these
+  changes, too. A major result is that nearly any skill can be used by any
+  character class.
+- A skill now may have synergy Bonuses (similar to masteries) applied by
+  putting points into other skills.
+- The player stats and inventory system has been completely redone to
+  run more efficiently, improving server performance and stability.
+- The collision detection system has been sped up significantly. Again,
+  improving server performance.
+
+
+     Specific changes/improvements
+
+- Increased difficulty for high-level players to reduce future
+  exploitation of the game system.
+- Made monsters tougher
+- Beefed up monster difficulty in Act V, Nightmare, and Hell
+  difficulties. This was accomplished by improving monster stats (hp, ac,
+  etc.) and by boosting their AI/behavior in NM and Hell difficulties
+  (that is, by making decisions more often and by simply moving faster).
+  In Nightmare and Hell difficulties monster damages have generally been
+  increased -- dramatically in some cases.
+- Reduced the effectiveness of Experience runs, power-leveling, and
+  leeching.
+- Added randomized (especially ranged-attack) monsters to Nightmare and
+  Hell Act V - e.g., Burning Dead, Imps, etc.
+- Increased the Experience attached to most Act V monsters in Normal,
+  Nightmare, & Hell difficulties.
+- Reduced the HP of (Act V) Barbarian soldiers in Nightmare and Hell
+  difficulties.
+- Increased the rate of occurrence of Unique monsters in Hell
+  difficulty.
+- Reduced the party member Experience sharing to 0 beyond a maximum
+  distance of about 2 screens from the monster death. This prevents
+  low-level characters from joining a party and then staying completely
+  out of harm's way while still getting Experience.
+- Increased the Experience penalty for Clvl 70+ as follows: Clvl 1 - 69:
+  100% Experience Clvl 70 - 99: 85% - 0.8% Experience (approximately
+  exponential decaying)
+- Encouraged players to play in more of the Diablo II
+  areas/locations/levels.
+- Reduced drops from the most-run SuperUnique monsters, ThreshSocket and
+  Pindleskin.
+- Cut Experience and reduced drops in the Cow level.
+- Randomized the monster populations more thoroughly throughout Act V in
+  Nightmare and Hell difficulties, including the addition of 'guest
+  monsters' from other Acts.
+- Increased the number of Unique monsters in each area and difficulty.
+
+    
+    Improved various Items
+
+- Improved the attributes for newly-dropped Rare Armor, Helms, and most
+  Weapons.
+- Added over 100 new Unique Items, of which 29 can be found only in
+  Ladder games.
+
+
+
+    Revised Skill balance for all Player Character classes
+
+
+    Amazon Javelin and Spear Skills
+
+- Jab - Increased Attack Rating.
+- Power Strike - Increased Attack Rating and Damage done to targets.
+  Added skill synergy bonuses.
+- Poison Javelin - Increased the total amount of Poison Damage and
+  Duration. Added skill synergy bonuses.
+- Impale - Increased Attack Rating. Increased Damage.
+- Lightning Bolt - Increased Lightning Damage. Added skill synergy
+  bonuses.
+- Charged Strike - Increased the number of Charged Bolts released.
+  Reduced average Lightning Damage. Added skill synergy bonuses.
+- Plague Javelin - Added an Attack Rating bonus. Increased Poison
+  Damage.  Increased Poison Duration. Lowered Mana cost per level of
+  skill. Added skill synergy bonuses.
+- Lightning Strike - Reduced the average Lightning Damage. Added skill
+  synergy bonuses.
+- Lightning Fury - Rebalanced by increasing the average Lightning
+  Damage. Although it starts lower, it rises rapidly to much higher
+  damage. Added skill synergy bonuses.
+
+
+    Amazon - Passive and Magic Skills 
+
+- Inner Sight - Increased the reduction in Enemy Defense. Improved
+  overall.
+- Valkyrie - Increased Attack Rating and decreased Mana cost. Added
+  resistances and skills like Evade, Dodge, etc. Added skill synergy
+  bonuses.
+- Decoy - Extensively revised with added resistances and skills like
+  Evade, Dodge, etc.
+
+    Amazon - Bow and Crossbow Skills 
+
+- Magic Arrow - Added Attack Rating bonus.
+- Fire Arrow - Added Attack Rating bonus. Decreased Mana cost. Added skill 
+  synergy bonuses.
+- Cold Arrow - Added Attack Rating bonus. Increased Cold Damage.
+  Increased Mana cost. Added skill synergy bonuses.
+- Exploding Arrow - Added Attack Rating bonus. Increased Fire Damage.
+  Added skill synergy bonuses.
+- Ice Arrow - Added Attack Rating bonus. Added skill synergy bonuses.
+- Immolation Arrow - Added Attack Rating bonus. Decreased Mana cost.
+  Added skill synergy bonuses.
+- Freezing Arrow - Added Attack Rating bonus. Decreased Mana cost. Added
+  skill synergy bonuses.
+
+
+    Assassin - Martial Arts Skills 
+
+- Dragon Talon - Increased Attack Rating.
+- Fists of Fire - Added skill synergy bonuses.
+- Claws of Thunder - Added skill synergy bonuses.
+- Blades of Ice - Added skill synergy bonuses.
+- All kick skills - Increased Attack Rating bonus.
+
+
+    Assassin - Shadow Disciplines 
+
+- Venom - Fixed duration at 0.4 seconds regardless of poison items
+  equipped.
+- Shadow Warrior - Increased the Life and resistances.
+
+
+    Assassin - Traps Skills 
+
+- Fire Blast - Added skill synergy bonuses.
+- Shock Web - Added skill synergy bonuses.
+- Charged Bolt Sentry - Added skill synergy bonuses.
+- Wake of Fire - Slight increase to Damage at higher levels. Added skill
+  synergy bonuses.
+- Lightning Sentry - Added skill synergy bonuses.
+- Wake of Inferno - Added skill synergy bonuses.
+- Death Sentry - Added skill synergy bonuses.
+
+
+   Barbarian - Warcries 
+ 
+- War Cry - Added skill synergy bonuses.
+- Shout - Increased duration.
+- Battle Orders - Increased duration.
+- Battle Command - Increased duration.
+
+
+    Barbarian - Combat Masteries 
+
+- Throwing Mastery - Increased the Attack Rating bonus to throwing skills.
+
+
+     Barbarian - Combat Skills
+ 
+- Bash - Added skill synergy bonuses.
+- Double Swing - Decreased Mana cost. Added skill synergy bonuses.
+- Stun - Added skill synergy bonuses.
+- Double Throw - Added skill synergy bonuses.
+- Concentrate - Added skill synergy bonuses.
+- Frenzy - Added skill synergy bonuses.
+
+
+     Druid - Elemental Skills      
+
+- Firestorm - Increased Fire damage at higher levels. Increased damage
+  at higher levels. Added skill synergy bonuses.
+- Molten Boulder - Added physical damage. Increased damage at higher
+  levels.  Added skill synergy bonuses.
+- Arctic Blast - Increased Cold damage at higher levels. Increased
+  damage at higher levels. Added skill synergy bonuses.
+- Fissure - Added skill synergy bonuses.
+- Cyclone Armor - Added skill synergy bonuses.
+
+- Twister - Increased damage at higher levels. Added skill synergy
+  bonuses.
+- Volcano - Added physical damage. Added skill synergy bonuses.
+- Tornado - Increased damage at higher levels. Added skill synergy
+  bonuses.
+- Hurricane - Added skill synergy bonuses.
+- Armageddon - Increased Fire damage at higher levels. Added skill
+  synergy bonuses.
+
+
+    Druid - Shape Shifting Skills   
+
+- Werewolf - Added skill synergy bonuses. Allowed casting of Armageddon.
+- Werebear - Added skill synergy bonuses. Allowed casting of Armageddon.
+- Maul - Increased Stun duration.
+- Rabies - Increased Poison Damage. Added skill synergy bonuses.
+- Fire Claws - Slight increase to Fire Damage. Added skill synergy
+  bonuses.
+
+
+    Druid - Summoning Skills 
+
+- Summon Spirit Wolf - Added skill synergy bonuses.
+- Heart of Wolverine - Increased radius of effect and Life.
+- Summon Dire Wolf - Added skill synergy bonuses.
+- Oak Sage - Increased radius of effect.
+- Spirit of Barbs - Increased Life.
+- Summon Grizzly - Added skill synergy bonuses.
+
+
+    Necromancer - Summoning Skills
+
+- Skeleton Mastery - Increased Damage of non-Skeletal 'pets'. Increased
+  Life of Skeletal 'pets'.
+- Raise Skeleton - Increased Skeleton Life, Attack Rating, and Defense.
+  Decreased the maximum number of Skeletons that can be summoned as
+  follows: the first 3 skill points in Raise Skeleton still yield 1
+  Skeleton per point (as in 1.09), however, subsequent Skeletons now
+  require 3 skill points each. Added skill synergy bonuses.
+- Clay Golem - Added the ability to slow players and monsters on hit.
+  Added skill synergy bonuses.
+- Raise Skeletal Mage - Increased Damage. Decreased the maximum number
+  of Skeletal Mages that can be summoned as follows: the first 3 skill
+  points in Raise Skeletal Mage still yield 1 Mage per point (as in 1.09),
+  however, subsequent Mages now require 3 skill points each. Added skill
+  synergy bonuses.
+- Blood Golem - Added skill synergy bonuses.
+- Iron Golem - Added Defense bonus. Added skill synergy bonuses.
+- Fire Golem - Increased Fire Damage. Added Holy Fire Damage. Added skill 
+  synergy bonuses.
+
+
+    Necromancer - Poison and Bone Skills
+ 
+- Teeth - Added skill synergy bonuses.
+- Bone Armor - Added skill synergy bonuses.
+- Poison Dagger - Increased Attack Rating. Increased Duration. Added skill 
+  synergy bonuses.
+- Bone Wall - Cut duration in half. Life decreased. Added skill synergy 
+  bonuses.
+- Poison Explosion - Increased Duration. Added skill synergy bonuses.
+- Bone Spear - Increased Magic Damage. Added skill synergy bonuses.
+- Bone Prison - Cut duration in half. Added skill synergy bonuses.
+- Poison Nova - Added skill synergy bonuses.
+- Bone Spirit - Increased Magic Damage at highest levels. Added skill 
+  synergy bonuses.
+
+
+    Paladin - Combat Skills 
+
+- Holy Bolt - Increased Magic damage. Ignores resistances of Undead.
+  Increased Healing to non-monster characters.
+- Blessed Hammer - Increased high-level damage. Ignores resistances of
+  Undead and Demons.  Added skill synergy bonuses
+- Vengeance - Added skill synergy bonuses.
+- Sacrifice - Added skill synergy bonuses.
+- Holy Shield - Added skill synergy bonuses.
+- Fist of the Heavens - Ignores resistances of Undead and Demons.  Added
+  skill synergy bonuses.
+- Zeal - Increased damage above level 4. Added skill synergy bonuses.
+- Charge - Added skill synergy bonuses.
+
+
+    Paladin - Offensive Auras
+
+- Might - Increased area of effect.
+- Holy Fire - Added Fire Damage to attack. Added skill synergy bonuses.
+- Thorns - Increased area of effect.
+- Blessed Aim - Increased area of effect.
+- Holy Freeze - Added Cold Damage to attack. Added aura damage. 
+  Added skill synergy bonuses.
+- Holy Shock - Rebalanced the area of effect. Increased Lightning Damage
+  on attack. Improved damage ramp. Added skill synergy bonuses.
+- Sanctuary - Increased Magic Damage. Added skill synergy bonuses.
+
+   
+    Paladin - Defensive Auras 
+
+- Prayer - Increased Healing and area of effect.
+- Resist Fire - Increased area of effect.
+- Defiance - Increased area of effect.
+- Resist Cold - Increased area of effect.
+- Resist Lightning - Increased area of effect.
+- Cleansing - Increased area of effect. Added skill synergy bonuses.
+- Meditation - Increased area of effect. Added skill synergy bonuses.
+- Redemption - Increased area of effect.
+- Salvation - Increased area of effect.
+
+
+    Sorceress - Cold Spells 
+
+- Ice Bolt - Increased Cold Damage. Added skill synergy bonuses.
+- Frozen Armor - Added skill synergy bonuses.
+- Frost Nova - Increased Cold Damage. Added skill synergy bonuses.
+- Ice Blast - Increased Cold Damage. Added skill synergy bonuses.
+- Shiver Armor - Increased Cold Damage. Increased Cold Duration.
+  Added skill synergy bonuses.
+- Glacial Spike - Increased Cold Damage. Added skill synergy bonuses.
+- Blizzard - Increased Cold Damage. Added skill synergy bonuses.
+- Chilling Armor - Increased Cold Damage. Added skill synergy bonuses.
+- Frozen Orb - Added skill synergy bonus.
+
+
+    Sorceress - Lightning Spells  
+
+- Charged Bolt - Added skill synergy bonuses.
+- Energy Shield - Added skill synergy bonuses.
+- Nova - Rebalanced Lightning Damage.
+- Lightning - Added skill synergy bonuses.
+- Chain Lightning - Added skill synergy bonuses.
+
+
+    Sorceress - Fire Spells
+
+- Fire Bolt - Increased Fire Damage at higher levels. Added skill
+  synergy bonuses.
+- Inferno - Increased Fire Damage at higher levels. Added skill synergy
+  bonuses
+- Fire Ball - Increased Fire Damage at higher levels. Slightly increased
+  Mana cost.  Added skill synergy bonuses.
+- Enchant - Rebalanced Fire Damage. Added Attack Rating bonus. Reduced
+  Mana cost.  Added Skill Synergy Bonus.
+- Meteor - Added skill synergy bonuses.
+- Hydra - Rebalanced Fire Damage. Added skill synergy bonuses.
+
+   
+   Added new Rune Words and Horadric Cube Recipes 
+
+- Added 20 new Rune Words.
+- Added a Horadric Cube recipe as follows: 3 flawless gems + 1 magic
+  weapon = socketed, magic weapon.
+- Added 46 more Horadric Cube Recipes -- upgrades for the remaining
+  Runes and item 'rerolls'. 
+- The highest 19 Rune upgrades are usable only by Ladder characters.
+
+
+    Closed some PvP loopholes/exploits
+
+- Terminated the casting of 'absentee' skills such as the Sorceress'
+  Meteor, Firewall, Blaze, Hydra; the Assassin's Sentries; the Druid's
+  Volcano; etc. when the player enters town.  This prevents declaring
+  Hostility and doing immediate damage to the unsuspecting.
+- Prevented 3rd-party hacks from treating background objects as a
+  Waypoint.
+- Enforced a 10-second delay between declaring Hostility and using a
+  Waypoint or Town Portal to leave town.
+- Ears and other items dropped on the ground by players (even in town)
+  are deleted more frequently, and even when on the same screen as
+  players.  Magic, Rare, Set, and Unique items persist longer.
+- The attribute "Hit Slows Target" has been limited to no more than 50%
+  slowing when used in PvP.
+- Fixed the bug that prevented a hostile player from targeting a
+  Whirlwinding Barbarian equipped with a 2-handed sword.
+- Throwing an Oil Potion no longer crashes an opponent.
+
+
+    New Battle.net features.  Please see www.battle.net for more
+    information.
+
+- Introduced a new Lobby. Players now start in the lobby where they may
+  decide to enter battle.net chat as before or to simply create/join a
+  game without entering chat.
+- Added the ability to recover a forgotten/stolen account password via
+  email registration.
+- Added a new command '/mail account_name' which sends a message
+  directly to the account's registered email address.
+- An 'expiration date' is now shown with Realm Characters on the
+  selection screen.
+- Introduced a new Ladder System for those who prefer to play free from
+  any characters who may have participated in past item duping or hacking.
+  To use this new feature, a player places a check in the Ladder box upon
+  character creation -- in the same way that Expansion and Hardcore
+  selection is done. Periodically, the Ladder may be reset, adding the old
+  Ladder characters to the regular population -- who, of course, cannot
+  play games with the new season's Ladder characters. Thus, every season
+  each new Ladder character truly starts from scratch, as no 'twinking' is
+  possible from older characters.
+- Once a player defeats Diablo, all Diablo II Battle.net accounts
+  accessed from that computer may create Hardcore characters.
+
+   
+     Battle.net bugs
+
+- Prevented a crash when waiting in the Blizzard Tech Support channel on
+  Battle.net.
+- Realm games created without a Password no longer allow players who
+  specify a Password to join.
+- When a character dies during an 'Alt-F4' disconnection from B.net in
+  Hardcore, the character icon now properly appears in both chat and the
+  Character Selection Screen.
+- Corrected typos in the Options help.
+- Prevented players from changing their chat text color and indentation
+  to masquerade as official Blizzard accounts.
+- Warcraft III players no longer appear as cloaked figures in Diablo II
+  chat rooms.
+- Battle.net stability has been improved when a Diablo II character that
+  had been designated as the operator of a private channel resigns.
+- Players may no longer immediately re-join a chat Channel from which
+  they have been banned.
+- Barbarians dual-wielding with a Javelin now show the Javelin in
+  battle.net chat, too.
+- Removed Age from the Player Profile.
+
+
+
+     Major Bugs
+
+- Fixed the 'Druid Drop' bug related to equipping items which would
+  cause players to be dropped from a game when activating Werewolf or
+  Werebear skills above level 33.
+- Super Unique, Unique, and Champion monsters can no longer be created
+  as nearly invincible, that is, with < 0 hit points.
+- Barbarians and Assassins who are dual-wielding potions are no longer
+  prevented from entering a game.
+- A Zod Rune applied to an Ethereal item no longer reduces its
+  durability to 0.
+- Characters with extremely fast attack speeds no longer erroneously
+  miss their targets.
+- Summoned creatures (aka 'pets') now properly inherit the player's
+  level to determine their monster level.
+- A summoned Grizzly now properly pursues and attacks its enemies more
+  effectively.
+- Fury and Phoenix Strike can no longer target the casting player's
+  hireling or pet.
+- Valkyries are no longer treated as monsters and erroneously assigned
+  additional Life in Nightmare and Hell difficulties.
+- A Valkyrie affected by a party member's Oak Sage can no longer be
+  killed with 1 hit.
+- Assassins and Barbarians with Mastery points no longer have excessive
+  Critical Strikes applied to their melee attacks.
+- Oak Sage and Heart of Wolverine now function properly above skill
+  level 20.
+- Poison Creeper now properly receives the PvP damage penalty.
+- Holy Freeze no longer slows the Lightning skill.
+- The curse Attract can no longer be overridden by any other curse.
+- Using Battle Command can no longer erroneously retain the skill bonus
+  granted by an item after un-equipping the item.
+- Active level 18+ Thorns no longer makes the player character
+  invulnerable to monster melee attacks.
+- Lightning and Chain Lightning are now properly affected by items with
+  casting rate magic properties.
+- Using Enchant on ranged weapons now boosts the damage a variable
+  amount.
+- Fireballs used against a Lightning Enchanted monster no longer make
+  its Charged Bolts invisible.
+- The 3rd charge of the Assassin's Skill - Blades of Ice, now freezes
+  the target.
+- Lower Resist now correctly updates the resistances displayed on the
+  target's character screen.
+- Crushing Blow now works at the percentage chance stated.
+- Items can no longer be created with level requirements higher than 99.
+- A throwing item with the magic property Replenishes Quantity now
+  replenishes if depleted to 0 quantity.
+- Newly-discovered Ethereal items with the magic property Increased
+  Maximum Durability now may have the maximum durability.
+- The Rune Word "Melody" now works properly for bows.
+- Leaving the vicinity of a Super unique monster and returning after 20
+  seconds, now properly respawns the Super unique for treasure drops.
+- The erroneous action of the Reduce AC modifier. which had shown in the
+  item pop-up as x% Target AC has been corrected. It now no longer sets
+  the target's AC equal to the percentage, but properly reduces the
+  target's AC by the percentage.  The display has been corrected to say
+  "-x% Target AC." The modifier's effect is reduced by one half when
+  player characters, SuperUniques, hirelings, and Act-end bosses are
+  targeted.
+- Fixed a bug in damage calculation for weapons which computed +min/+max
+  damage prior to +damage%.
+- If Holy Bolt is assigned to the right mouse-button and Charge or Smite
+  to the left, left-clicking on a party member no longer sticks one in
+  place.
+- A player character standing on a player corpse is no longer immune to
+  missiles.
+- Auto-targeting skills when assigned to the left mouse-button no longer
+  repeatedly cast, if one is holding the button down to move.
+  Auto-targeting skills are those that nearby target if one is not
+  selected, e.g., Fist of the Heavens.
+- The Paladin's non-aura skills now attack appropriately, when one
+  clicks on a foe without enough Mana to use the skill.
+- A class of bugs that had reduced the effectiveness of alternating
+  weapon attacks when equipped with two weapons has been fixed, including
+  the various dual-claw Assassin attacks.
+- Poison length calculations are now correct.
+- Poison now works properly when applied to ranged attacks.
+- Mindblast and Conversion now remove any auras from their targets upon
+  casting and also when they wear off.
+- Confuse now works properly, that is, without the occasional misfire.
+- Holy Shield now boosts the defense of the player, not the shield.
+- Blade Fury now uses the proper amount of Mana.
+- Skeletons, Skeletal Mages, and Golems are now raised with appropriate
+  (non-0) Attack Rating and Defense stats.
+- Iron Golems are no longer summoned with excessive additional Life in
+  Nightmare and Hell difficulties.
+- Hirelings can no longer equip items without meeting the item
+  requirements.
+- Rogue hirelings can no longer shoot Lightning Bolts by equipping items
+  that boost Bow and Crossbow skills.
+- Isenhart's Case and Horns now work together correctly on Hirelings.
+- Monster warping (aka teleporting) in some TCP/IP games has been
+  reduced.
+- Slowed or chilled monsters no longer 'desynch' (or 'lag') as easily.
+- Corrupted Rogues no longer pause for long periods of time when
+  pursuing a foe.  
+- When a Barbarian throws a weapon with his left hand (right inventory
+  slot) while equipped with a melee weapon in his right hand (left
+  inventory slot), the thrown weapon now does proper damage.NPCs no longer
+  bestow quest rewards (e.g., socketing) upon unidentified items.
+- An NPC no longer fails to give a quest reward item to a character with
+  a full Inventory or Stash.
+- The Heaven's Brethren set bonus of "+5 to Light Radius" now works.
+- As shown on the Character screen, Assassins receive a damage bonus
+  from boots.
+- The Assassin's Claw Mastery bonuses to Damage and Attack Rating are no
+  longer erroneously swapped.
+- A behavior-changing curse (like Dim Vision) can no longer affect a
+  monster permanently, when the player portals away.
+- The Life of monsters affected by Regeneration or Poison now updates
+  correctly.
+- Enchant cast upon other player characters is now enhanced by the
+  caster's Fire Mastery.
+- Skills and magic effects that change one's maximum Life now change
+  one's current Life by a corresponding percentage.
+- The Attack Rating displayed for the Assassin kick skills is no longer
+  higher than the actual Attack Rating.
+- Macintosh-specific fixes
+- Improved compatibility with dual-monitor Macintosh systems.
+- Prevented a crash when using the scroll bars and highlighting games in
+  Battle.net's Join menu.
+
+
+     Minor Bugs
+
+- Summon Spirit Wolf no longer overstates the Damage.
+- Spirit of Barbs, Heart of Wolverine, and Oak Sage no longer understate
+  their radii of effect.
+- When the Automap option "Center" is off, the Automap no longer centers
+  upon opening the Skill Tree or Inventory.
+- The extraneous text in the Change Realm dialog box has been removed.
+- The health bar of a Flayer knocked from his Flayer Shaman now works.
+- Fixed a general monster health bar overflow bug.
+- A temporary loss of the Stamina Shrine effect no longer occurs.
+- The Skill Tree levels are now displayed properly when a player equips
+  both a non-melee item that boosts all character class skills along with
+  a weapon that boosts an individual skill.
+- Skills granted by items are now always displayed as such in the Skill
+  Tree.
+- The damage displayed on the character screen is now correct when a
+  character with high strength has no weapon equipped.
+- The damage displayed on the character screen is now correct for
+  Freezing Arrow and Holy Shock.
+- The hover text of the Amazon skill Multiple Shot now correctly
+  displays that it does 3/4 weapon damage.
+- When the Assassin has two Claws equipped and is using the Weapon Block
+  skill, the Chance to Block percentage properly appears in the hover text
+  of the Defense stat in the character screen.
+- The Golden Bird quest status is shown correctly in the quest log, if
+  one exits the game before getting the reward.
+- The Redemption skill description now correctly states that it affects
+  only the caster, not the party.
+- The Redemption skill graphic effect can no longer appear erroneously
+  when a player returns from town through a Town Portal.
+- The Thunderstorm skill graphic effect now displays properly.
+- The damage listed on the character screen for Holy Shock no longer
+  appears blue.
+- Hardcore Assassins and Druids no longer appear as cloaked figures in
+  the multiplayer character selection screen of DII Classic.
+- Message log scrolling is now more responsive.
+- Players now see other players kicking barrels.
+- Berserker Axe" is now spelled correctly.
+- Io, Shael, and Jah Runes now have Korean, Japanese, and Chinese
+  translations.
+- Corrected localization (translation, text box sizes, etc.) for a
+  number of issues in French, German, Chinese, Korean, and Spanish.
+
+
+     Enhancements and other changes
+
+- Implemented a new system to detect and delete 'duped', 'hacked' and
+  other erroneous items from the inventories of Realm Characters as they
+  are loaded.
+- Increased the damage of nearly all skills above skill level 20.
+- Added synergy bonuses to many skills. The bonuses boost the
+  effectiveness of the higher-level skills based upon the number of points
+  allocated to the lower-level (synergizing) skills. Players are rewarded
+  for using skill points earlier rather than hoarding them all for later
+  'cookie-cutter' distribution to high-level skills.
+- Rebalanced the rate of Unique/Set/Rare/Magic items drop.
+- Lower Resist and Conviction skills now work properly against immune
+  monsters.
+- Cold Mastery has been changed to a constant amount.
+- Elemental Piercing versus immunities has been changed to a constant
+  amount.
+- Improved the existing 7 class-specific Sets by adding and/or boosting
+  partial and complete Set bonuses. Also added a visual effect to wearers
+  of these complete Sets.
+- Limited the maximum experience gain from The Ancients quest in Act V
+  to 1 character level.
+- One can no longer enter Town Portals cast by other players in areas
+  beyond the "blocking quests" without having completed those quests:
+  e.g., Canyon of the Magi/Seven Tombs/Duriel's Lair (The Summoner), The
+  Harem/Palace Basement/Arcane Sanctuary (The Tainted Sun), Durance of
+  Hate (The Blackened Temple), The Worldstone Keep (The Ancients), The
+  Secret Cow Level (Terror's End in DII classic or Eve of Destruction in
+  DII: LoD).  NOTE: A player who kills the High Council (but doesn't use
+  Khalim's Will to smash the Compelling Orb), may take a Town Portal into
+  the Durance of Hate.
+- NPCs no longer accept lower difficulty quest items to complete quests
+  in a higher difficulty.
+- Atma now heals automatically.
+- Quest items are automatically identified when they drop.
+- Increased the challenge of Mephisto and the Ancients.
+- Increased the damage and defense of Andariel, Mephisto, Diablo, and
+  Baal.
+- Gave Mephisto a more powerful Frost Nova, based on his own (not
+  player's) stats.
+- Added blocking and resistances to Duriel.
+- Reduced the levels of all auras used by Unique monsters.
+- Added more Unique monsters to the open areas of Acts IV and V.
+- Life leeching is now determined by each monster type and reduced below
+  100% in Nightmare and Hell Difficulties.
+- Added resistances and blocking to the Unravelers in Act II in Hell
+  Difficulty.
+- Increased monster hit-points in one player games and reduced the
+  increase to monster hit-points for each additional player in multiplayer
+  games.
+- Boosted the effects of Health and Mana potions.
+- Mana potions are now sold by some shopkeepers.
+- The Antidote potion now gives +50 poison resistance and +10 max poison
+  resist for 30 seconds.
+- The Thawing potion now gives +50 cold resistance and +10 max cold
+  resist for 30 seconds.
+- The Stamina potion now gives super stamina recovery for 30 seconds.
+- Newly-found (post-1.10) magic bows with the properties "Fires Magic
+  Arrows" or "Fires Explosive Arrows" have these properties at appropriate
+  skill levels rather than being fixed at level 1.
+- Improved gambling by increasing the chances for Rare, Set, and Unique
+  items.
+- Improved monster drops by boosting the base item types and by
+  increasing the chance for Rares.
+- Increased the chances that dropped items have the magic properties of
+  Enhanced damage, Life-stealing, Mana-stealing, and + to all Resistances.
+  Increased hireling Life/attack rating/defense/level. Also removed the
+  skill cap from Act III hirelings. (Hireling level at hiring is now
+  different between DII classic and LoD.)
+- Increased life regeneration for hirelings.
+- Boosted the effect of Health potions upon hirelings.
+- Lowered the cost of resurrection of hirelings.
+- Increased the leash range of hirelings.
+- Summonables except for Revived monsters and pets that don't attack or
+  defend - e.g., Vines now get Defense and Attack Rating based on their
+  level.
+- Bone Walls are now friendly to the caster's party - that is, not
+  attackable.
+- Improved Blood Raven's behavior.
+- Guest monsters (those from earlier Acts and lower difficulty levels)
+  compute their Treasure Class (for item dropping) appropriately for their
+  new, higher levels.
+- Chilling Armor no longer responds to other Chilling Armor bolts.
+- A player may have up to 16 corpses now. Only the first (oldest) corpse
+  holding items is saved between games.
+- In Nightmare and Hell difficulties recovering one's corpse now
+  restores 75% of the Experience that had been lost at death. This applies
+  to all of a player's corpses.
+- Block lock' has been eliminated. When a player character has just
+  blocked an attack, the player cannot block again for a short period of
+  time, the length of which increases as Blocking speed increases.
+- Reduced the 'lag' when Lister the Tormentor and his minions are
+  summoned by Baal.
+- The levels of The Forgotten Tower are now larger in Nightmare and Hell
+  difficulties.
+- Increased the likelihood of dropping Elite items.
+- Only a very few Unique items and new 'uber' items are now over level
+  85. That is, the best items now drop more often.
+- Jewels and other modifiers can now boost the elemental damage of a
+  melee weapon if that trait is listed as part of the Jewel description.
+- The Buriza's level (not its level requirement) was increased to 59.
+- Items that grant skills bestow a lower skill level to those character
+  classes who natively have the skill in their skill tree. Note that
+  Charged items receive synergy and mastery bonuses, but don't receive
+  bonuses by assigning extra points to the skill.
+- Boosted the Cham Rune freeze effect on weapons from +1 to +3.
+- The Eth Rune's effect is now "-25% to Target AC". Thus, 4 Eth Runes
+  reduce the target AC to zero.
+- The modifier "Ignores Target AC" no longer acts upon SuperUniques,
+  hirelings, and Act-end bosses. Its lack of effect upon player characters
+  and unique monsters remains unchanged.
+- Changed the Horadric Cube recipe that had used 3 chipped gems to
+  require 3 standard gems as follows: 3 standard gems + 1 socketed weapon
+  = socketed, magic weapon.
+- Changed the two Horadric Cube recipes for Rejuvenation Potions to
+  require a chipped gem and a standard gem.
+- One may sell items to an NPC without the confirmation dialog by
+  ctrl-left-clicking on them.
+- Increased the size of the message log from 32 to 128 lines.
+- Reduced the density of the graphic special effect displaying curses.
+- Added optimizations to light map computation and added various levels
+  of light map fidelity which automatically adjust to keep the frame rate
+  acceptable.
+- Selecting "Show Party - No" in the Automap Options now shows one's
+  pets.
+- In the inventory an unidentified Unique item is now shown as its
+  generic item type.
+- Improved the accuracy of the Mana cost display.
+- Added a graphic effect to the Whirlwind skill.
+- Improved the second level charge-up graphic effect of the Assassin's
+  Phoenix Strike.
+- Added new color schemes for certain Rare, Set, and Unique items.
+- Maces and Staves now display "+50% Damage to Undead", consistent with
+  other weapon classes.
+- The TCP/IP Join Game button remembers the last IP address entered.
+- Chat commands (e.g. 'fps') are now preceded by a slash (e.g. '/fps').
+- A new chat command '/nopickup' toggles on/off the ability to
+  automatically pick up items lying on the ground. When off, one must hold
+  down the Alt key to pick up items.
+- Monsters (except for SuperUniques) in non-ladder Realm games are now
+  at 75% HP (Hell), 85% AC (NM & Hell), and don't increase their AI speed
+  for higher difficulties.
+
+  
+   Macintosh-specific changes
+
+- Support for both "widescreen" and "4:3" mode in Mac OS X 10.2+.
+- Improved OpenGL performance for systems with minimum requirements:
+  MacOSX 10.2, 256MB RAM, and Radeon or GeForce AGP video card.
+
+--------------------------------------------------------------------------
+- Patch 1.09d
+--------------------------------------------------------------------------
+
+     Minor Bug
+
+- Fixed a bug with certain Creative Lab DVD drives and copy protection.
+- Fixed another bug where a connection problem ("Unable to connect to 
+  Battle.net") would instead result in a downloading patch dialog that 
+  stayed at 0% indefinitely.
+- Fixed a lockup that occurred on Dual CPU/Dual Video card systems when 
+  hitting the quit button in chat.
+
+--------------------------------------------------------------------------
+- Patch 1.09c
+--------------------------------------------------------------------------
+
+     Major Bug
+
+- Fixed a trading bug that could be exploited to allow one user to crash 
+  out another user.
+
+     Minor Bug
+
+- Fixes issues with High Point Technology's RAID controller drivers. 
+
+*****Modifications (North American versions only)*****
+
+- Please note that included with this patch is a .dll file that relays 
+  back to Blizzard the hardware configuration of the system on which the 
+  patch is installed.  This file will be effective in North America only.
+
+  In keeping with our policy of protecting user privacy, we will not be 
+  collecting any personal information, nor will we be able to associate 
+  any hardware information with any particular user.  We will only be 
+  recording CPU, RAM, operating system, video card, and sound card 
+  information.
+
+  The reason we are doing this is to help our development teams optimize 
+  our upcoming game, Warcraft III: Reign of Chaos, for various hardware 
+  configurations.  The information we receive will help us tailor the game 
+  to meet the system requirements of our customers and help us to enhance 
+  their overall gameplay experience.  If you have any questions or 
+  concerns about this procedure, please email us at support@blizzard.com.
+
+--------------------------------------------------------------------------
+- Patch 1.09b
+--------------------------------------------------------------------------
+
+FIXES:
+- Fixed a bug where a connection problem (ie "Unable to connect to Battle.net")
+  would instead result in a downloading patch dialog that stayed at 0%
+  indefinitely.
+
+--------------------------------------------------------------------------
+- Patch 1.09 (Lord of Destruction and Standard)
+--------------------------------------------------------------------------
+* Note: certain item changes will not apply retroactively to already 
+  existing items.
+
+     Skill Balance Changes
+
+- Decrepify no longer reduces the damage Resistance of immune monsters.
+- Reduced damage of additional levels of Firewall starting from level 9.
+- Changed Telekinesis to only work on scrolls, potions, keys, gold, arrows 
+  and bolts.
+
+     Modifications-Lord of Destruction
+
+- The mouse-over functionality of hireling portraits has been changed. 
+  You now must keep your mouse cursor over your hireling for three seconds 
+  before the portrait highlights and the text "Drop potion on hireling 
+  portrait, right-click to open inventory" appears. 
+- Gold sharing among party members has been removed.
+- Players can no longer give or take items from a hireling if they are not 
+  within range (this fixes a bug where the game would crash if a player 
+  gave or removed an item from a hireling when the Hireling was out of 
+  range).
+- Changed enhanced defense per level and enhanced damage per level to 
+  display the exact amount of enhancement.
+- Changed 'Hit Blinds Target' to a level-based formula.
+- Changed 'Freezes Target' item modifier to a level-based formula 
+  (improved for melee characters).
+- Changed display of enhanced damage vs. demons and enhanced damage vs. 
+  undead to be +x% instead of x%.
+- Added potential for sockets to Bone Visage Elite Bone Helm, Troll's 
+  Nest and Blade Barrier Elite Shields.
+- Improved drops for placed (super) Unique monsters such as Bishibosh, 
+  Rakanishu, et. al.
+- Improved drops for certain quest monsters such as Blood Raven, The 
+  Countess, The Cow King, et. al.
+- Duriel now always drops a Town Portal scroll in addition to his regular 
+  drop.
+- Enabled certain Horadric Cube recipes that were disabled in v1.08.
+- Enabled "add socket" Horadric Cube recipe.
+- Made "add socket" Horadric Cube recipe not work on socketed items.
+- Added several very low-level magic affixes.
+- Restricted some affixes from generating on certain item types.
+- Rare items will now always spawn with three or more affixes if possible.
+- Increased chances for 'of blocking' and 'of deflecting' suffix.
+- Added increased block rate to 'of blocking' and 'of deflecting' 
+  suffixes.
+- Personalized item names are now printed in the color of base type.
+- Added base item type to highlight info for rune word items.
+- Non-weapon items that add damage now do so with regards to bow damage.
+- Adjusted strength & dexterity damage bonus for certain items.
+- Changed the 'Ethereal' property to modify base stats.
+- Changed the 'Reduce Magic Damage' property to spread across frames for 
+  multi-frame attacks (such as firewall).
+- Altered stats of many Unique items*.
+- Altered stats of a few Set items*.
+- Altered stats of a few rune word items.
+- The Shae, Po, and Jo runes have been renamed. They are now the Shael, Io, and Jah runes 
+   respectively
+- Reduced chances of elemental damage affixes spawning on Charms.
+- Increased bonuses for affixes that increase stack size on Throwing 
+  items*.
+- Increase chances of Self-repair affixes.
+- Increase chances and potency of Replenish quantity affixes*.
+- Increased stack sizes of most Throwing weapons.
+- Enabled normal Orbs and Circlets.
+- Increased maximum number of sockets for some items.
+- Rare Jewels are now capped at a maximum of four affixes.
+- Adjusted weapon and armor levels and level requirements.
+- Stacked items with poison damage now average their poison duration.
+- Rejuvenation potions now automatically go into the belt if picked up 
+  from the ground.
+- Rejuvenation potions can now be shift-clicked from the inventory into 
+  an equipped belt.
+- Adjusted the Hireling experience system.
+- Altered Act 2 Hireling Auras.
+- Changed Hireling damage to 50% against bosses in normal, 40% in 
+  nightmare, and 25% in hell difficulties.
+- Raised maximum price vendors will pay for an item to 30,000 gold pieces  
+  in nightmare difficulty, and 35,000 gold pieces in hell difficulty.
+- Added health Regeneration to all hireling types.
+- Iron Maiden and Thorns effects now treat Hirelings as players with 
+  respect to damage.
+- Hirelings now gain experience from monsters killed by Minions and 
+  other party members.
+- Using a potion from the belt (either by hotkey or right-clicking) 
+  while holding down the shift key will give the potion to the player's 
+  hireling if he/she has one.
+- Lowered maximum duration for which Hirelings could be stunned.
+- Iron Golems are now saved with the player.
+- Color coded monsters' elemental/physical immunity info display. (For 
+  example, Fire Immune is printed in red).
+- Changed monster stats back to what they were before v1.08.
+- Reduced the Resistance bonus for Magic Resistant Uniques (It was 75%; 
+  it is now 40%).
+- The monsters in Act 4 that eat corpses will no longer eat corpses 
+  that have already been used.
+- The Resistance penalty at higher difficulty levels no longer applies 
+  to Magic Resistance.
+- Crush Beasts no longer give only 1 exp when they are killed.
+- Changed PvP penalty for players or Hirelings attacking other players 
+  to 1/4.
+- Implemented PvP penalty of 1/2 for Hirelings attacking other Hirelings.
+- Town portal use has been restricted to party members only.
+- Reduced damage multiplier for act-end boss attacks vs. minions.
+- Broken Ethereal items now sell for 1 gold.
+- Added Thawing Potions to vendor inventories in Act IV and Act V.
+- It is now possible (albeit very rare) to get Set and Unique items 
+  from gambling.
+- Increased the chances of getting a Rare item from gambling.
+- Keys may now be purchased in bulk (shift + right-click).
+- Swapped properties for Jah and Cham runes in weapons.
+- Added rune words for Single Player/Other Multi Player which previously 
+  only showed up on Realm games.
+- Adjusted hover text box sizes.
+- Updated the pop-up text to reflect adjusted monster attack and defense.
+- Adjusted memory management code.
+- Typing "players X", where X is a number between the current number of 
+  players and the maximum (8), in the message box will now set the 
+  effective number of players in the game (in single player, open 
+  Battle.net and TCP/IP games only).
+- Removed global Physical Resistance from Nightmare difficulty games.
+- Fixed a bug where Tyrael would sometimes create an inaccessible portal.
+- Fixed a bug where a player who was disconnected from Battle.net while 
+  in the Imbue screen would crash.
+
+     Major Bugs
+    
+- Fixed bonus to Undead damage modifier to work with ranged weapons.
+- Fixed bonus to Demon damage modifier to work with ranged weapons.
+- Fixed 'Reduces Target Defense' modifier to work with ranged weapons.
+- Fixed a bug where item-specific partial Set bonuses didn't get applied.
+- Fixed a bug where the enhanced defense for items that gained it on a per 
+  level basis was improperly calculated (such as Blackoak shield).
+- Fixed a bug where the enhanced damage for items that gained it on a per 
+  level basis was improperly calculated (such as Hellslayer).
+- Fixed a bug where certain two-handed and missile weapons did not get the 
+  displayed damage bonus (such as Magewrath).*
+- Fixed Piercing weapons to work correctly with Amazon skills (such as 
+  Doomslinger).
+- Fixed a bug where items could give characters skills that are exclusive 
+  to another Character class.
+- Fixed a bug with weapon swapping which allowed some character classes to 
+  dual wield items. When a player that is illegally wielding two items  
+  enters a game, one of the items will be deleted.
+- Fixed bug which allowed certain Horadric Cube recipes that were meant to 
+  be disabled to continue to function.
+- Fixed a bug where trying to display the highlight info for an item 
+  with too many modifiers would crash the game.
+- Fixed a bug in using an item that gives Werewolf/Werebear skills when no
+  skill points were originally assigned to those skills caused an 
+  assertion.
+- Fixed various bugs with the second quest of Act 5.
+- (Macintosh Only) Fixed a bug where a user running Diablo II Expansion in 
+  800x600 received an assertion when entering Diablo II standard games.
+
+     Minor Bugs
+
+- Fixed a bug where Elemental damage did not display correctly for 
+  Throwing Weapons.
+- Fixed a bug in the determination of magic affix levels.
+- Fixed a bug that allowed Ethereal throwing items to be stacked with 
+  non-Ethereal ones.
+- Fixed a bug where it was possible to repair and/or recharge Charged 
+  Ethereal items.
+- Fixed a bug where it was possible to repair Throwing Potions.
+- Fixed a bug where Throwing Weapons brought from standard Diablo II 
+  could not be Imbued in Diablo II Expansion Set.
+- Fixed a bug where certain Paladin shields were not able to be 
+  personalized.
+- Fixed a bug where it sometimes did not verify replacing a dead 
+  hireling with a new one.
+- Fixed a bug that allowed the same Unique to be spawned more than once 
+  in a game.
+- Fixed various Horadric Cube recipes that create magic items.
+- Fixed a bug that caused a rune word item to lose its rune word bonuses 
+  when transferred off of the character who created it.
+- Fixed a bug which caused the variable attributes of a rune word item to 
+  reset inappropriately.
+- Fixed a bug where using the Taunt skill would sometimes cause the game 
+  to crash.
+- Fixed a bug where the Firewall animation display without doing any 
+  damage.
+- Fixed a bug where Sanctuary allows the Paladin to ignore an Undead 
+  monster's damage resistance.
+- Fixed a bug where left-hand throw was throwing using too many missiles 
+  per throw.
+- Fixed a bug where certain Charged items would use multiple charges per 
+  casting.
+- Fixed a bug that caused Cold Mastery to think other players were immune 
+  when they were not.
+- Fixed a bug where you could select Baal's dead tentacles.
+- Fixed a bug where in a Realm game, Nihlathak would remain in town even 
+  after another player killed him.
+- Fixed a bug where Anya would not always give a class-specific item for
+  her quest reward.
+- Fixed a bug where the invisible monster in the Worldstone Keep could be 
+  affected by Monster Shrines.
+- Fixed a bug where Monster Shrines could affect Druid Vines.
+- Fixed bug where Regurgitators would eat Hirelings and destroy them.
+- Fixed Act 1 hirelings to be able to use bows with special arrows 
+  (such as Witherstring).
+- Fixed a bug where hirelings' items would not update if they could no 
+  longer meet the requirements to wear them.
+- Fixed Immolation Arrow to do initial weapon damage; no base physical 
+  damage is included in the radius.
+- Fixed Freezing Arrow to do initial weapon damage; no base physical 
+  damage is included in the radius.
+- Fixed Poison Javelin to do initial weapon damage.
+- Fixed Plague Javelin to do initial weapon damage.
+- Fixed Lightning Fury to do initial weapon damage.
+- Fixed a Fend bug that would abort the Fend prematurely on the server. 
+  (This applies to Zeal and various other skills as well.)
+- Fixed a bug that caused the game to crash when a character clicked on 
+  his/her own feet.
+- Fixed invalid line Automap options from v1.08.
+- Fixed drawing problem for charges/ammo counts on skill icons where the 
+  number of charges would extend off the icon.
+- Fixed some spelling errors in the text.
+- Fixed some errors in translations.
+- Fixed a variety of crash bugs.
+- Fixed a bug where hireling health regeneration was dependent on the 
+  number of players in game.
+- Fixed a bug that allowed hirelings to be converted.
+- Fixed a bug where items that add to skills had no effect on Hirelings.
+- (Macintosh Only) Fixed a bug that made it possible to have the character 
+  walk endlessly toward the lower left corner of the screen without input 
+  from the player.
+- Fixed a bug that caused garbage characters to appear at the top of
+  the screen at the start of a realm game.
+
+
+DIABLO II Standard FIXES:
+
+- Fixed a bug in Diablo II where uniques and champions could drop 
+  throwing items as their "magic" item drop.
+- Fixed a bug that allowed Diablo II players to put a socket in rare 
+  items with the Horadric cube recipe.
+- Fixed a bug in Diablo II that allowed hirelings to be brought into 
+  other acts.
+
+
+DIABLO II CLASSIC IMPROVEMENTS/CHANGES:
+
+- Changed the Diablo II Standard blocking method back to the old method.
+- Adjusted damage and attack rating of monsters in Diablo II Standard.
+- Removed global Physical Resistance for monsters in Hell difficulty in 
+  Diablo II Standard.
+
+--------------------------------------------------------------------------
+- Patch 1.08 (Lord of Destruction)
+--------------------------------------------------------------------------
+
+     Skill Balance Changes
+
+- When using two-handed attacks the speed of both weapons are averaged.
+
+
+  Barbarian
+- Whirlwind now alternates between two weapons when using two-weapon style.
+
+  Paladin
+- Increased Holy Shock's melee damage bonus.
+- Decreased the power of Conviction.
+- Added a casting delay for Fist of Heavens and increased its damage.
+- Increased the blocking bonus that Holy Shield gives.
+- Conviction does not affect immunities.
+
+  Necromancer
+- Increased Fire Golem's melee damage.
+- The hit points for a Revived monster no longer increase with more players
+  in a game.
+- Lower Resist and Amplify Damage do not affect immunities.
+
+  Sorceress
+- Increased Fire Wall's damage.
+- Increased Blizzard's duration.
+- Decreased Meteor's casting delay.
+- Decreased casting time for Chain Lightning and Lightning.
+- Increased Frozen Orb's damage.
+- Thunderstorm now hits a target every time.
+- In expansion games, Static Field is no longer affected by Conviction 
+  and Lower Resist. It will not take a monster below 33% health in 
+  Nightmare difficulty or 50% in Hell difficulty.
+- In non-expansion games Static Field remains the same.
+- Cold Mastery will not affect cold immune monsters.
+- The damage inflicted by Ice Blast, Fire Ball, Lightning, Nova, and 
+  Glacial Spike, per level has been increased.
+
+  Amazon
+- Increased Freezing Arrow damage.
+- Increased Ice Arrow damage.
+- Increased Immolation Arrow damage, added a casting delay and decreased 
+  the fire duration.
+- Added a casting delay to Plague Javelin and increased its damage.
+
+  Assassin
+- Dragon Tail now has an attack bonus.
+- Increased Fist of Fire damage.
+- Increased Claws of Thunder damage.
+- Increased Phoenix Strike damage.
+- Fixed various bugs with skills that use two claws.
+- Dragon Tail does not cost mana or knockback when it misses.
+
+  Druid
+- Turned down the mastery bonuses for the wolves and bears.
+- Increased Feral Rage's life stealing.
+- Increased Hunger's life stealing, but increased its damage penalty.
+- Increased the delay between the times that Hurricane does damage.
+- Increased the radius for Armageddon's damage and increased the delay 
+  between missiles.
+- Werebear skill modified to give +50% to hit points. (It was +100%.)
+- Maul now gives +20% damage per charge per level. (It was +25%.) Its 
+  stun length is shorter and attack bonus is 3% plus, 3% per level. 
+  (it was +20%, 10% per level.)
+- Increased damage of Fire Claws slightly (+8 per level up to level 9).
+- The damage bonus of Fury changed to +50% damage, 5% per level. 
+  (It was 100%, 17% per level.)
+
+     Modifications
+
+- Creatures can be summoned in town, as long as the summoning does not
+  require a corpse.
+- Crafted items cannot generate with affixes meant for magic items 
+  only. 
+- The durability for all claw class weapons is now doubled. (This 
+  will not affect existing items.)
+- Adjusted attribute requirements for all claw class weapons.
+- Adjusted damages for all Elite weapons.
+- Adjusted affix level for wands, staves and orbs. (Higher levels of 
+  these items have better magic attributes.)
+- Increased the chance of enhanced damage affixes on weapons.
+- Increased the chance of enhanced attack rating affixes on weapons.
+- Increased the chance of enhanced armor affixes on armor.
+- Increased the chance of elemental damage suffixes on weapons.
+- Increased the level and the damage for certain high level elemental 
+  damage affixes.
+- Decreased values on +maximum damage and +minimum damage charms. 
+  (This will not affect existing items.)
+- Increased values for percentage chance to find gold affixes on charms 
+  and jewels. (This will not affect existing items.)
+- Increased attributes of many affixes for jewels. (This will not affect 
+  existing items).
+- Increased chances of extra quantity affixes on throwing items.
+- Increased chances of regenerate quantity affixes on throwing items.
+- Increased jewel drop rates.
+- The necromancer spell "Iron Maiden" no longer appears on charged items.
+- Increased resistance bonus for Tal, Ral, Ort, and Thul runes when  
+  socketed into shields by 5%.
+- Increased resistance bonus for Um rune when socketed into shields by 
+  2% and when socketed into helms and armor by 5%.
+- Changed bonus for runes with + to max resists to 5%.
+- Repaired rune words. (Most previous rune worded items will no longer 
+  get rune word bonuses.)
+- Adjusted rune drop rates.
+- Removed several melee modifiers from generating on orbs.
+- Changed Izual to be able to drop treasure.
+- Changed Charsi's imbue quest to always give a plus to individual skills 
+  on items that can have them.  
+- Items sold to stores are priced as if they were fully repaired.
+- Lowered prices for items with +2 or +3 to single skills.
+- Lowered costs for recharging items.
+- Removed throwing potions from stores.
+- Increased prices for circlets and coronets.
+- Unique monsters with the "teleport" attribute now heal a fixed amount.
+- Crushing blow is 50% less effective with bows.
+- Crushing blow is affected by physical resistance.
+- Lowered hireling resurrection cost.
+- Increased chances of finding unique and set items.
+- Slightly increased the item drop rate for extra players in a game 
+  who are not in your party.
+- Lowered gambling prices that scale with your level.
+- Changed prices on rejuvenation and full rejuvenation potions. 
+- Added potential sockets for Troll nest and Blade barrier shields.
+- Enabled sockets on certain items, increase sockets potential on others.
+- Increased blocking for grim shield.
+- Increased AC for all elite shields.
+- Increased AC for Bone visage helm.
+- Changed increased rate items, (fast, faster, fastest) to display as a 
+  percentage faster. 
+- Adjusted armor, blocking, and durability for elite Paladin shields.
+- When used in melee throwing weapon durability decreases at one third 
+  the thrown rate.	
+- +2 to all skills affixes can now spawn on rare amulets.
+- Increased range of the Glorious axe.
+- Changed items with pierce to use their pierce value as a percentage 
+  instead of as a level in the skill.
+- Changed the piercing value for certain uniques with pierce (Kuko 
+  Shakaku, Buriza-Do Kuyanon, Demon Machine, Razor Tail).
+- Changed Wizardspike unique bone knife to 75% resist all. 
+- The set item Naj's Puzzler now has 69 charges of teleport. 
+- Added sound to shift-click of potions in grid. 
+- Added elemental damage affixes for charms. 
+- Adjusted the difficulty of Baal on higher difficulties. 
+- Cannot get quest completion credit for the ancients' quest unless 
+  the character level is 20 or greater in normal difficulty mode, 40 
+  or greater in nightmare, and 60 or greater in hell difficulty mode.
+- Keys now stack to 12 instead of 6.
+- Right mouse click works the same as left mouse click if assigned an 
+  attack skill.
+- Act II hirelings have been improved with additional skills including 
+  auras.
+
+
+
+     Major bugs
+
+- Addressed certain duping issues when entering and leaving games.
+- Fixed a bug which could allow you to have a defense rating after using 
+  Berserk.
+
+     Minor bugs
+
+- Added missing "crimson" affix with adds +5-10 fire resistance.
+- Fixed a bug where quests and horadric cube recipes could generate items 
+  with too many sockets.
+- Fixed a bug were expert's/veteran's/master's prefixes were swapped with 
+  sounding/resonant/echoing prefixes.
+- Fixed a bug which allowed spells cast to have piercing while wearing 
+  items of piercing. 
+- Fixed a bug where single skill bonuses did not stack properly. 
+- Fixed a bug where variable costs for armor types was not being calculated 
+  properly.
+- Fixed a bug where you were allowed to shift-click purchase rejuvenation 
+  potions in stores.
+- Fixed the bug that added javelin damage to Lightning Fury, and made the
+  graphics simpler for the lightning.
+
+--------------------------------------------------------------------------
+- Version 1.07
+--------------------------------------------------------------------------
+
+      Skill Balance Changes
+
+  Paladin
+- In expansion games, Blessed Hammer/Concentration combination imbalance 
+  has been corrected.
+- In non-expansion games, the Blessed Hammer/Concentration combination 
+  remains the same.
+- Zeal is now limited to 5 swings and gives an increased percentage to 
+  Attack Rating.
+- Fixed display for Vengeance's damage to reflect its actual damage.
+- Salvation resistance increased.
+- Increased damage for Fist of the Heavens.
+- Decreased the length of time that Converted monsters fight for you.
+- Increased the damage per level for Sanctuary.
+- Increased the Smite damage for Holy Shield.
+- Increased resistance bonus for Resist Fire, Resist Cold, Resist 
+  Lightning, and Salvation.
+- Increased the Mana regeneration rate for Meditation.
+- Added melee lightning damage to Holy Shock.
+- Added melee damage to undead to Sanctuary.
+- Allowed Conviction to reduce an enemy's resistance to a negative value.
+- Increased the player's resistance penalty for Conviction.
+- Added a damage bonus to Fanaticism.
+
+  Barbarian
+- In expansion games, Whirlwind is now properly modified by weapon speed.
+- In non-expansion games, Whirlwind remains the same.
+- Frenzy, Double-Swing, and Double-Throw are now properly modified by 
+  weapon speed.
+- Added damage bonuses to Concentrate and Frenzy.
+- Frenzy now increases in attack speed as more monsters are hit.
+- Increased the damage bonus on Berserk.
+- Changed Battle Orders bonus to increase by 3% per level at all levels.
+- Increased the damage of War Cry.
+
+  Amazon
+- Strafe has a greater range.
+- Impale and Jab are now properly modified by weapon speed.
+- Impale increases damage with level and decreases the chance to lose 
+  durability.
+- Fend is now uninterruptible and does more damage.
+
+  Sorceress 
+- Increased the damage of Hydra.
+- Lightning Mastery now affects electrical damage rather than decreasing 
+  the Mana cost of those skills.
+- Added a casting timer to Fire Wall, Meteor, Blizzard, Frozen Orb, and 
+  Hydra and commensurately increased their damage to prevent a drop 
+  in frame rate, while maintaining the same overall balance.
+- Decreased the Mana cost for Enchant and increased its bonus to fire 
+  damage.
+- The damage inflicted by most skills over level 8 has been increased.
+
+  Necromancer
+- Enhanced the damage and decreased duration for Poison Dagger, Poison 
+  Explosion and Poison Nova.
+- Increased duration and adjusted radius for Decrepify.
+- Fixed Iron Maiden+Blood Golem bug and increased the Blood Golem's Life 
+  stealing.
+
+
+      Major Bugs
+
+- Fixed a bug with Paladin skills and party/hostility on the borders of 
+  town.
+- Fixed a bug that allowed a Necromancer to summon more than one Golem 
+  at a time.
+- Player can no longer steal Life/Mana from inanimate objects.
+- Fire Mastery now correctly increases damage to the Hydra skill.
+- Fixed a bug that occasionally prevented Hirelings from dying along 
+  with the player.
+- Fixed the double-draw bug in some skill effects, including Blizzard,
+  to improve frame rate.
+- Fixed the updating of the summonables' health bar on their icons.
+- Fixed a bug with left-hand swinging on the right-hand spell selection 
+  side.
+- Fixed the pop-up description for Fist of the Heavens.
+- Fixed the overlapping of the character name and level name in the 
+  party screen.
+- Fixed bug with Barbarian Masteries.
+
+
+      Modifications
+
+- Gambling prices are now based on the character level.
+- Sets and Uniques can no longer be gambled for.
+- Boss monsters now do 30% less damage to Hirelings and minions than before.
+- Monsters now display if they are Undead or Demon, when highlighted. If 
+  nothing is listed, they are an "Animal" type.
+- General levels for monsters in Nightmare and Hell difficulty have been 
+  adjusted.
+- Maximum monster level is now level 70 in Nightmare and level 90 in Hell.
+- Monsters in Nightmare/Hell difficulty, have higher Resistances, Hit 
+  Points, and lower attack ratings than before.
+- Poison Damage attacks from Monsters, do more damage than before.
+- Mana and Life stealing effects are reduced by half in Nightmare and Hell.
+- Retrieving your corpse where it died in Nightmare and Hell restores 50% 
+  of any experience lost at death.
+- Adjusted the stocking of vendor inventories based on difficulty level.
+- Adjusted how Hirelings gain experience.
+- Adjusted how Hirelings react to missiles.
+- Adjusted Hireling resistances.
+- Increased the amount of Gold a character can hold in the Stash.
+- Increased the power of all Gems/Skulls and added level requirements.
+- Increased the power of all throwing potions and added level requirements.
+- Increased the resistance penalty in Nightmare difficulty to -40 and 
+  Hell difficulty to -100.
+- Sounds for Gems in inventory have changed.
+- Looting corpses is available only in Hardcore games.
+- In multi-player, you may only go hostile once per minute with each
+  other player in your game.
+- New Party Experience Bonus to players in a Party in multiplayer.
+- Crystal Swords have an increased durability.
+- Scepter class items have increased damage.
+
+
+      Improvements
+
+- Holding down SHIFT and RIGHT-Clicking, when buying health potions,
+  auto-fills any empty slots in the belt. This applies to buying scrolls
+  of Town Portal and Identify scrolls too.
+- Holding down SHIFT and LEFT-Clicking on health potions in inventory,
+  will auto-move them to the appropriate column in your belt.
+- Added a new 'Repair All' button for equipped items at the blacksmith in
+  each Act.
+- New Auto-Map functionality. Players can adjust the size of the Auto-Map
+  in the "Auto-Map Options" menu, switching to the new "Mini-Map".
+- Up to 8 "Hotkeys" are available to assign skills to now.
+- Improved the displays for character status screens.
+  * Total blocking % is now shown and is a related to a player's level 
+    and dexterity.
+  * Chance to Hit and Defense against last monster fought is now shown.
+  * Maximum Resistances are now shown in Gold color.
+  * Elemental damage only items, display colors for elemental type damage.
+- Wells now heal hirelings.
+- Removed collisions for players with pets.
+- Pets health will scale up accordingly in Nightmare and Hell difficulty.
+
+
+      Attention 
+
+- Player can no longer steal Life/Mana from certain monster types.
+- Names of pre-existing Rare Items have changed. However, the item 
+  properties have not.
+- The maximum damage of Enhanced Damage items may change 1-3 points.
+- The damage of many items has been increased.
+- Items with one or two sockets may gain an additional socket.
+- After patching, newly-discovered Set and Unique items will have
+  additional level requirements.
+- Level requirements have not changed for Classic Set items (those
+  discovered in the original Diablo II).
+
+--------------------------------------------------------------------------
+- Patch 1.06b
+--------------------------------------------------------------------------
+
+      Major bugs
+
+- Fixed a bug that allowed players to crash other players by spamming them.
+- Fixed a bug that was not saving Open Battle.Net characters.
+- Fixed issue with Samsung Drives and copy-protection.
+
+      Updates
+
+- Battle.net's Terms of Service agreement updated. Everyone please take 
+  note.
+
+--------------------------------------------------------------------------
+- Patch 1.06
+--------------------------------------------------------------------------
+
+      Improvements
+
+- Updated Battle.net's Terms of Service agreement. It can now be accessed 
+  without having to create a new account. 
+- Further optimized server-to-client communication.
+- Fixed copy-protection for various CD, DVD and CD-R drives.
+
+--------------------------------------------------------------------------
+- Patch 1.05b
+--------------------------------------------------------------------------
+
+      Major bugs
+
+- Fixed a video driver crash encountered when displaying graphics in
+  the Battle.net chat room.
+- Fixed copy-protection for various CD, DVD and CD-R drives.
+- Fixed a problem where character avatars were left in the list after
+  that character had left a channel.
+- Fixed several visual glitches with the character select screen.
+
+--------------------------------------------------------------------------
+- Patch 1.05
+--------------------------------------------------------------------------
+
+      Major bugs
+
+- Fixed copy-protection for various CD, DVD, and CD-R drives.
+- Barbarians wielding two potions are no longer prevented from entering
+  games.
+- Socketed items were mistakenly and irreversibly de-randomized in 1.04.
+  Now their gem effect values are taken from the upper end of their
+  original (pre-1.04) random ranges.
+- Fixed all spell ranges. They were mistakenly reduced in v1.04.
+- Fixed a bug that prevented deleting some Characters.
+- Fixed numerous foreign language display problems.
+
+      Minor bugs
+
+- Fixed a bug in the trade screen when the Horadric Cube was open.
+- Duplicate ladder entries should no longer occur.
+- The Ladders scroll properly now when there are less than 999 entries.
+- Realm characters should no longer appear as robed.
+- Fixed a bug allowing users to appear in a channel twice.
+- If the user cannot connect to a default realm, a "Realm down" message
+  is displayed.
+- Fixed the "packet sniffing" exploit used when gambling.
+- High-durability items no longer lose durability when you join a 
+  game after exiting or dying.
+- The Conversion skill no longer causes a monster counting error in the
+  Den of Evil.
+
+      Improvements
+
+- A prompt now appears informing the user to delete characters when they 
+  have greater than eight characters in a Realm.
+- Player profiles now have a link to their ladder records, if they are
+  in the top 999.
+- A "connecting to realm" message was added.
+
+      Balance Changes
+
+- The Paladin's Concentration skill now enhances the damage of Blessed 
+  Hammer just as it did in 1.03. The damage displayed on the Character
+  screen is correct, too.
+- The Amazon's Strafe skill now correctly enhances base bow damage rather 
+  than total bow damage. 
+- The Amazon's Guided Arrow skill now enhances base bow damage rather
+  than total bow damage. 
+
+--------------------------------------------------------------------------
+- Patch 1.04b
+--------------------------------------------------------------------------
+
+      Major bugs
+
+- Fixed problems with accessing the Play CD at startup on some
+  CD and DVD drives.
+- Fixed a crash problem with the Video Tester in Windows NT and
+  Windows 2000
+
+--------------------------------------------------------------------------
+- Patch 1.04
+--------------------------------------------------------------------------
+
+      Major bugs
+
+- The Prismatic amulet, Coral ring, and other Horadric Cube recipe items 
+  no longer change into other items upon starting a new game.
+- Lances, Holy Water Sprinklers, Grim Helms, War Clubs, and Stilettos can 
+  now be dropped by monsters and chests.
+- Using the Paladin Charge skill as a monster dies cannot generate a 
+  "zero hit-point" monster.
+- Fixed an assertion when a high-level character kills a monster.
+- Barbarian's Whirlwind and Leap Attack and Paladin's Charge no longer 
+  keep all inventory items red and unusable after attack ends.
+- A "dead, but alive" bug has been fixed.
+- Equipping a barbarian with a two-handed sword or with a shield while 
+  holding two two-handed swords will no longer cause disconnection from 
+  the Realm.
+- Fixed an assertion that could happen when unequipping one item while 
+  wearing another gemmed item that enhances a character stat.
+- Fixed a bug that prevented damage-enhancing magic properties from 
+  working properly on bows.
+- Closed a loophole that could allow a player to declare hostility on 
+  anyone regardless of where the declarer is.
+- Closed a loophole that could allow a player to run around too fast.
+- Closed a loophole that allowed a player to equip and use an item that 
+  was beyond the character's ability.
+- Improved compatibility with Delta CD-ROM drives.
+- When loading a saved character holding bad items, all the bad items 
+  are deleted, allowing the character to be played.
+
+      Minor bugs
+
+- Charged Bolts are no longer invisible for a radius (based on the 
+  caster's light radius).
+- "Bonefarming" eliminated in Single Player and Open games.
+- Fixed the "Moon-walking" bug that occasionally appeared when knocked 
+  back by a monster.
+- French and German Create Queue status messages no longer overlap.
+- Fixed attack speed bonuses and descriptions to be accurate for 
+  Griswold's Edge, Goreshovel, The Diggler, Witherstring, and Twitchtroe.
+- Fixed cast rate descriptions for the unique and set items: Arcanna's 
+  Tricks, Maelstromwrath, Ume's Lament, The Iron Jang Bong, Wall of the 
+  Eyeless, and Magefist.
+- Long emotes in chat combined with a 15 character-long name no longer 
+  assert.
+- The inventory sounds of the Sallet, Heavy Bracers, Battle Gauntlets, 
+  War Gauntlets, Mesh Boots, Battle Boots, War Boots, and Demonhide Sash 
+  are now the same as the unexceptional versions of these items.
+- Removed "invisible islands" from the River of Flame, Tal Rasha's Tomb, 
+  Spider Forest, and Tower Cellar, preventing Barbarians/Sorceresses from 
+  leaping/teleporting onto them.
+- Changed the Amazon's Jab skill description to multiple attacks.
+- Fixed a number of typos ("ordinateur" (in French version), "Eats and 
+  Spits Corpses", "Stiletto", "Explore Tal Rasha's Chamber") and 
+  capitalization mistakes ("extra gold from monsters", "better chance of 
+  getting magic item", "Hit Causes Monster To Flee", "bonus to Attack 
+  Rating", "Slows target by", and "Hit blinds target").
+- When a Realm character tries to join a game at a higher difficulty level 
+  than earned, the correct error message is used.
+- The difficulty setting of the last Realm game created or joined will no 
+  longer carry over to the next Single Player game.
+- Fixed an error displaying the Chance to be Hit by a monster when having 
+  activated a second Armor Shrine before the first one wears off. The 
+  chance actually never goes below 5%.
+- Fixed a bug where an open quest log was not updated to reflect the 
+  saving of Cain.
+- Fixed a bug that gave the wrong name to a Waypoint highlighted by a 
+  player standing in a different "room" in the game environment.
+- Two-handed items are now equipped properly (doing proper damage) at the 
+  beginning of a game.
+- Clicking on one's corpse (while equipped with nothing) properly 
+  re-equips all the items from the corpse.
+- Closing the Waypoint list by pressing Ctrl+Alt no longer disables pop-up 
+  text on NPC's and inventory items.
+- Attempting to trade a Tome or Scroll to a player without enough room to 
+  accept them, no longer causes a phantom Spell to appear in that player's 
+  spellbook.
+- The gauntlet cursor can no longer be erroneously turned into a 
+  trade/repair arrow/hammer.
+- Fixed a bug with the mini-experience bar above level 75.
+- Fixed a bug in the display of the Chance to be Hit.
+- Fixed a bug in the count of the number of Scrolls remaining in Tomes of 
+  Town Portal and Identify.
+- The ranges of the Scythe and Grim Scythe have been increased to the 
+  intended values.
+- A miscalculation of the distance ranges of some skills has been fixed.
+- The Iron Maiden skill now heals a Blood Golem based on the amount of 
+  damage done to it rather than the maximum life of the monster attacking 
+  it.
+- Fixed a bug with experience accumulation and its display in the Realm 
+  Ladders above level 93.
+- Guided Arrow skill properly increases damage with additional skill points.
+
+      Improvements
+
+- The Realms handle character data more quickly now.
+- Added a Battle.net gateway selection to the main menu.
+- Added a Change Password feature.
+- Battle.net messaging has been upgraded to use character names, not just 
+  account names. The new message addressing formats are: 
+  /msg CharacterName, /msg CharacterName@RealmName (where RealmName is 
+  USWest, USEast, Asia, or Europe), and /msg *accountname. The old 
+  addressing format was: /msg accountname.
+- Duriel's graphics are pre-loaded before entering his lair. This 
+  minimizes the chance of getting killed by him before loading is complete.
+- Added a CONTRAST video option to allow users who preferred the original 
+  Glide settings to the 1.03 version to change the setting back or 
+  somewhere in between.
+- Slightly increased the effectiveness of Corpse Explosion by making every 
+  point (not every other one) add to the radius of the damage.
+- Health and mana reductions are no longer smoothed. Now, if you take a 
+  big hit, you immediately see a big drop.
+- Grim Shield base blocking was changed from 0 to 10.
+- Added low quantity warning for Balanced Axe and Hurlbat.
+- Added chances for Blades and Stiletto to be generated as treasure.
+- An equipped belt can now be traded, if it is empty of all items.
+- If player 1 has a chat window open and player 2 clicks on player 1, 
+  nothing will happen now. This prevents trading requests from 
+  interrupting someone who is trying to chat.
+- Messages sent by a player in trade are only sent to the other person 
+  with whom the player is currently trading. Also, messages from players 
+  outside the trade are squelched and will not appear in the message log.
+- Color codes sent by other users in chat are filtered out, preventing 
+  malicious masquerading.
+- Chat colors have been adjusted to help players identify the source of 
+  the text. The new chat colors are Name = Gold, Whisper = Green, 
+  Alert = Red, Message = White, Emote = Gray, Enter/Exit = Gray, and 
+  Blizzard Representative = Blue.
+- Removed the chat cheats "scrollhack1" and "scrollhack2".
+- Added some new error messages to Battle.net and clarified a few others.
+- Changed the Battle.net chat history scroll bar to Windows-style 
+  "page up/down" instead of "scroll to this spot".
+- Changed the "i" and "l" (lower-case "L") in the Battle.net chat font 
+  to look different. The small "5" and "6" in the Character screen are 
+  now more distinguishable, too.
+- Maximum number of characters increased to 8 Battle.net characters/realm.
+
+******Game Hint/Spoiler******
+
+- Quest items will no longer be destroyed when transmuting quest items in 
+  the Horadric Cube already containing another complete recipe.
+- Fixed a bug that occasionally prevented the Golden Bird and Gidbinn 
+  quests from giving their rewards.
+- Cain no longer gives out extra Mephisto Soulstones.
+- Removed the pesky "thief" ability from Lord De Seis. 
+  (That oughta' fix him!)
+- Fixed a bug that erroneously gave credit for the Act 4 Soulstone 
+  quest to a party member who was not in Act 4.
+- The resistances of certain Super-unique monsters have been reduced. Now, 
+  Andariel correctly takes extra damage from fire, while the Smith and 
+  Hephasto take extra damage from poison.
+
+----------------------------------------------------------------
+- Patch 1.03
+----------------------------------------------------------------
+
+      Major bugs
+
+- Fixed a rare bug that would mark a character as "Unable to join, 
+  Bad item." A typical cause of this bug was high lag conditions 
+  while two characters simultaneously attempted to use the same 
+  item lying on the ground - for example, a Necromancer casting 
+  Iron Golem on a sword while another tried to pick it up.
+- Fixed a bug where Diablo II would crash when using 64 MB video cards.
+
+      Minor bugs
+
+- Fixed a loophole that allowed either the Necromancer wearing the 
+  complete set of Infernal Tools or the Paladin with the Milabrega 
+  set to temporarily boost his skills to very high levels.
+- Fixed a bug that caused Amazons wielding a javelin in the right 
+  side inventory box and a shield in the left to do no damage with 
+  javelin-throwing skills assigned to the right mouse button.
+- Fixed a bug in Open games that dropped players with slower machines 
+  from the game when they talked to Act III NPCs.
+- Fixed 3 rare lock-up bugs with Lord De Seis: 1) killing him as any 
+  character, 2) leaping away from him as a Barbarian, and 3) being 
+  killed by him while simultaneously drinking a potion.
+- If a player tries to create a game when a Realm server is fully 
+  occupied, the player is prompted to join a game instead. It no longer 
+  reports "Server Down" in this case.
+- The "Toggle Belt" hotkey is no longer active when the in-game chat 
+  overlay is displayed.
+- Magic Mauls with the Enhanced Damage Property have been fixed.
+- Unique Boots Treads of Cthon and Tearhaunch now give players the 
+  proper increased walking speed 
+- Static Field (Sorceress) Fixed Spell Description 
+- Leap Attack (Barbarian) Fixed Spell Description 
+- War Gauntlets are now spelled correctly 
+- Corpse Explosion (Necromancer) Reduced the explosion damage so 
+  that it is not scaled up for each additional player in the game. 
+
+      Improvements
+
+- Game creation queue added. Client now informed of game creation 
+  position.
+- Reduced the average bandwidth required for each player/client. 
+  Effects: reduction in lag and a slight modification to the updating 
+  of the Life Orb. There may be a period of adjustment for some players 
+  and we encourage you to pay closer attention to your Life Orb until 
+  you are used to this change.
+- Added support for future server performance improvements. 
+  Effect: Future reduction in lag and future increase in the number 
+  of games per server.
+- When a server goes down, the clients will no longer be left in 
+  "limbo" for up to 20 seconds, but will exit immediately to 
+  Battle.net chat.
+- Messages from Battle.net are now yellow.
+- Critical Strike (Amazon) now works on all weapons. 
+- The "Z" Key will now toggle between views of Minions only, No 
+  Minions or Party Members, and Your Minions and Party Members. 
+- Items sold by Vendors under the Misc Tab no longer sell out. 
+- Settings are kept when creating games on Battle.net.
+- ATI's recent driver update has solved incompatibilities with Rage 
+  128 video cards and RAVE/OpenGL. To use RAVE or OpenGL with a you will 
+  need to download and install the new drivers, and then choose 
+  "Rescan Monitors" from the video configuration screen. If you can 
+  already select RAVE or OpenGL mode, you do not need to download this update.
+  The drivers can be downloaded from ATI's web site, for manufacturers contact
+  information please visit:
+  http://www.blizzard.com/support/information/vendors.shtml (Mac only)
+- Minor changes for Japanese and Korean support. 
+- Fixed a bug that could cause crashes when playing in RAVE or OpenGL. 
+  (Mac only) 
+- Fixed a rare bug that could cause the game to lock up in low memory 
+  situations. (Mac only) 
+
+      Balance Changes 
+
+- Players that have not completed the last quest in Act III can no longer 
+  use the Portal to Act IV until they have properly completed that quest. 
+- Corpse Explosion (Necromancer) Reduced the extra radius gained per 
+  level of the skill from 1 to 1/2. 
+- Revive (Necromancer) Removed the hit point boost for extra levels 
+  gained in this skill.
+- Conversion (Paladin) Lowered the formula calculating the chance to 
+  convert for extra levels gained in this skill.
+- Whirlwind (Barbarian) Decreased the number of attack attempts made 
+  when using this skill.
+- Pierce (Amazon) Magical arrow effects such as Immolation will apply 
+  to every target hit.
+
+----------------------------------------------------------------
+- patch 1.02
+----------------------------------------------------------------
+
+      Major bugs
+
+- Fixed a bug that deleted your single player or open character if 
+  you deleted a Realm character with the same name.
+- Fixed several bugs to improve memory usage--those bugs could cause 
+  the game to slow down after playing for a while.
+- Fixed a bug associated with ejecting the Play CD.
+
+      Minor Bugs
+
+- More consistent closing of dialog boxes and pop-up screens when 
+  hitting Esc key.
+- Fixed a bug to allow faster drawing of the auto-map.
+
+      Improvements
+
+- Will auto-close some NPC menus when necessary.
+- The automap can be toggled when a waypoint is active.
+- Game log file names follow the format D2YearMonthDay.txt.
+
+******Game Hint/Spoiler******
+
+- Fixed a bug that caused the portal to the Valley of the Magi to 
+  disappear if a player had completed the Arcane Sanctuary quest (by 
+  killing the Summoner) but exited the game without taking the portal 
+  and establishing the waypoint in the Valley of the Magi. (Act II).
+
+----------------------------------------------------------------
+- patch 1.01
+----------------------------------------------------------------
+
+      Major bugs
+
+- Fixed a bug that prevented you from getting credit for killing a
+  quest boss, if you died before it did -- perhaps, by killing it
+  with a poisoned weapon.
+- Fixed a bug that could crash the game during the countdown after
+  completing the final quest in Act IV, if the player used
+  Waypoints to return to the earlier Acts.
+- Fixed a hang bug that could occur if picking up gold while
+  fleeing from a Gargantuan Beast (Act I).
+- Fixed a crash bug that very rarely occurred when a Sorceress
+  cast the Meteor spell.
+- Fixed the "black screen" crash that could occur if one pressed
+  'Alt-tab' during a cinematic.
+- A Multiplayer Install running DirectDraw will no longer crash
+  when one cancels the Cinematic selection menu.
+- Fixed a bug that prevented two quest rewards from scaling up
+  properly for Nightmare and Hell difficulty.
+- Sand Leaper corpses no longer prevent players from moving through
+  a tight pass in the Act II desert.
+- Wounded Act II spiders no longer greatly reduce the frame rate.
+- Lower-titled characters may now join Open games created by
+  higher-titled characters (those who have completed the game in
+  Normal, Nightmare, or Hell difficulty).
+- Fixed a bug that prevented some complete Item Sets from having
+  their full bonus.
+- Fixed a bug in Open Battle.net games that allowed a second player
+  to create another game with the same name as an already existing
+  game. No one could join the second one.
+- Fixed a bug in TCP/IP games when a Town Portal was smothered in
+  piles of gold, it could cause a player entering from the other
+  end of the Portal to be disconnected from the Host.
+- Fixed a bug that prevented interacting with the Stash, NPCs, or
+  Waypoints if the player clicked on the Stash, then pressed 'H'
+  before arriving at the Stash, and finally pressed 'H' again
+  after arriving at the Stash.
+
+      Minor bugs
+
+- Removed an unused gossip from Ormus (Act III).
+- Fixed a bug where if the 'Space bar' were assigned to another
+  function, it would erroneously continue to close the Message Log,
+  Quest Log, and Waypoint menu.
+- Fixed a bug that occasionally allowed some monsters to enter the
+  Act II town of Lut Gholein.
+
+      Improvements
+
+- Improved the stability of the servers and the behavior of clients
+  when a server malfunctions.
+- Changed the amount of gold dropped by a player who is killed by
+  another player (PKed) to equal the amount that would normally be
+  lost "to the void" as a death penalty when killed by a monster.
+- Updated the ReadMe.htm to document the PK gold-drop penalty.
+- Changed the text color for Blizzard Representatives in Diablo II
+  chat rooms to yellow.
+- Australian users connect to the USWest Realm instead of the Asia
+  Realm.
+
+******Game Hints/Spoilers******
+
+- Fixed a crash bug that occurred upon entering the red Portal to
+  the Canyon of the Magi, if a player had completed the Arcane
+  Sanctuary quest, then saved and started a new game, before
+  completing the Seven Tombs quest (Act II).
+- Fixed a multiplayer bug that prevented a character from completing
+  the final quest in Act II (and advancing to Act III), when joining
+  a game started by a character who had already defeated the final
+  boss, but who had not yet visited Meshif for the reward.
+- Fixed the following 3 bugs that could occasionally crash the game:
+  - Killing Lord De Seis (Act IV).
+  - In Perspective mode Glide entering a Tomb in the Canyon
+    of the Magi (Act II).
+  - A multiplayer party fighting in the Kurast Bazaar (Act III).
+- Fixed a bug that caused a quest item being held in the cursor to
+  disappear when pressing the Horadric Cube's transmute button.
