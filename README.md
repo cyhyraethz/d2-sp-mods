@@ -2,7 +2,7 @@
 
 This is a mod pack containing my favorite single player mods for Diablo II
 
-### Included Mods
+## Included Mods
 
 - [PlugY](http://plugy.free.fr/en/index.html) - infinite personal and shared stash pages, free respecs, ladder only runewords, diablo clone, and uber tristram in single player, nihlathak portal stays open, /players count set automatically next game, etc (v14.02)
 - [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - auto gold pickup, spawn missing super uniques, gamble refresh button, ctrl click to move items, charms only work in part of expanded inventory, resistance scroll bug fix, auto set /nopickup, etc (v1.13.7)
@@ -20,7 +20,56 @@ This is a mod pack containing my favorite single player mods for Diablo II
 - Tome stack size increased from 20 to 80
 - Arrow and bolt stack size increased to 500
 
-### Installation
+## Features
+
+Many of these features can be enabled and disable in the included config files.
+
+I will try to list as many of the enabled features config files as possible,
+however I may still miss some.
+
+#### PlugY
+
+- Automatic backup of save files
+- Larger stash size
+- Shared stash
+- Infinite gold storage in shared stash
+- Infinite personal and shared stash pages
+- Infinite free stat and skill respecs
+- Enables ladder only runewords
+- Enables Diablo Clone
+- Enables Uber Tristram
+- Launch multiple instances
+- Automatically set /players count
+- Display item level on tooltips
+- Able to open cow level even if Cow King was killed
+- Nihlathak portal remains open after completing quest
+- Cain moved near Harrogath waypoint in Act 5
+
+#### BaseMod
+
+- Auto pickup for gold, scrolls, and keys (while room left in tome/key stack)
+- Auto pickup for potions of exact same time (while room left in belt slot)
+- Set /nopickup at start of game (prevent pick up unless holding down alt to show items)
+- Spawn all missing super unique monsters
+- Add gamble refresh button
+- Charms only work in 4x10 section of expanded inventory
+- Enable ctrl click to move items between inventory/stash/cube and to drop items
+- Infinite quest rewards for imbue, socketing, and personalization that costs gold
+- Anya bug fix (resistance scroll quest reward works even after dying in a game)
+- Faster loading for multiplayer games (e.g. for multiboxing over TCP/IP)
+
+#### Loot Filter
+
+- Shows whether items are ethereal on ground text
+- Shows how many sockets an item has on ground text
+- Shows possible stat ranges on item tooltips
+- Shows runeword, upgrade, and crafting recipes on item tooltips
+- Pings chat and puts an icon on map when valuable items drop
+- Filters out clutter like quivers, scrolls, small gold piles, etc
+- Adds detailed stat overview page (open with number row 5 by default)
+- Adds exp text above exp bar (% of level, % gained this game, exp/s rate)
+
+## Installation
 
 1. Backup your Diablo II installation and your Save folder before making any changes.
 
