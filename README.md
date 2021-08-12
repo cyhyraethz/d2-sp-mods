@@ -22,7 +22,7 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
 ## Features
 
-Many of these features can be enabled and disable in the included config files.
+Many of these features can be enabled and disable in the included config files
 
 #### PlugY
 
@@ -86,6 +86,10 @@ Many of these features can be enabled and disable in the included config files.
 
 5. Start the game with PlugY.exe, which is the executable you will now be using
    for launching the game.
+
+## Warning
+
+Items may be lost if character is used in a game with standard inventory size
 
 ## Resources
 
