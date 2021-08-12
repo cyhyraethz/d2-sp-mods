@@ -24,9 +24,6 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
 Many of these features can be enabled and disable in the included config files.
 
-I will try to list as many of the enabled features config files as possible,
-however I may still miss some.
-
 #### PlugY
 
 - Automatic backup of save files
@@ -53,8 +50,9 @@ however I may still miss some.
 - Spawn all missing super unique monsters
 - Add gamble refresh button
 - Charms only work in 4x10 section of expanded inventory
-- Enable ctrl click to move items between inventory/stash/cube and to drop items
-- Infinite quest rewards for imbue, socketing, and personalization that costs gold
+- Enables shift + left click to move items to belt from stash or cube (potions, etc)
+- Enables ctrl + left click to move items between inventory/stash/cube and to drop items
+- Repeatable quest rewards for imbue, socketing, and personalization that costs gold
 - Anya bug fix (resistance scroll quest reward works even after dying in a game)
 - Faster loading for multiplayer games (e.g. for multiboxing over TCP/IP)
 
@@ -68,6 +66,9 @@ however I may still miss some.
 - Filters out clutter like quivers, scrolls, small gold piles, etc
 - Adds detailed stat overview page (open with number row 5 by default)
 - Adds exp text above exp bar (% of level, % gained this game, exp/s rate)
+- Enables shift + right click to move items between inventory/stash/cube
+- Enables ctrl + right click to drop items from inventory/stash/cube
+- Enables shift + left click to identify in inventory/stash/cube
 
 ## Installation
 
