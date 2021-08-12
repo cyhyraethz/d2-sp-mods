@@ -5,10 +5,10 @@ This is a mod pack containing my favorite single player mods for Diablo II
 ## Included Mods
 
 - [PlugY](http://plugy.free.fr/en/index.html) - infinite personal and shared stash pages, free respecs, ladder only runewords, diablo clone, and uber tristram in single player, nihlathak portal stays open, /players count set automatically next game, etc (v14.02)
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) - auto gold pickup, spawn missing super uniques, gamble refresh button, ctrl click to move items, charms only work in part of expanded inventory, resistance scroll bug fix, auto set /nopickup, etc (v1.13.7)
+- [BaseMod](https://www.moddb.com/mods/basemod) - auto gold pickup, spawn missing super uniques, gamble refresh button, ctrl click to move items, charms only work in part of expanded inventory, resistance scroll bug fix, auto set /nopickup, etc (v1.13.7)
 - [Loot Filter](https://github.com/cyhyraethz/slashdiablo-maphack-giga) - shows whether items are ethereal and how many sockets they have while on ground, shows possible stat ranges that items can roll, filters out trash like small gold piles, arrows, bolts, etc (v1.9.9)
 - [D2HD](https://github.com/IAmTrial/SlashDiablo-HD) - widescreen support to play at 1068x600 resolution (16:9 aspect ratio) instead of 800x600
-- [Giga Inventory](https://jonripley.com/gaming/Diablo/mods/gigainv) - expands the inventory size of your character from a 4x10 grid to a 9x10 grid
+- [Giga Inventory](https://github.com/cyhyraethz/d2-giga-inv) - expands the inventory size of your character from a 4x10 grid to a 9x10 grid
 - [No Intro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - replaces the intro videos with short, blank ones that don’t waste your time
 - [Font Fix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - fixes 5s looking like 6s in one of the fonts the game uses
 - [cnc-ddraw](https://github.com/CnCNet/cnc-ddraw) - better lighting effects and shader support
@@ -89,7 +89,7 @@ Many of these features can be enabled and disable in the config files
 
 ## Notes
 
-Diablo Clone can be spawned by selling a Stamina Potion to a vendor in Hell Difficulty
+Diablo Clone can be spawned by selling Stamina Potion to vendor in Hell Difficulty
 
 ## Warning
 
@@ -105,10 +105,10 @@ Items may be lost if character is used in a game with standard inventory size
 ## Credits
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas
-- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom
-- [Loot Filter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo
-- [D2HD](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo
-- [Giga Inventory](https://jonripley.com/gaming/Diablo/mods/gigainv) by Mhoram & Ravenswolf
+- [BaseMod](https://www.moddb.com/mods/basemod) by devurandom
+- [Loot Filter](https://github.com/cyhyraethz/slashdiablo-maphack-giga) by SlashDiablo
+- [D2HD](https://github.com/IAmTrial/SlashDiablo-HD) by SlashDiablo
+- [Giga Inventory](https://github.com/cyhyraethz/d2-giga-inv) by Mhoram & Ravenswolf
 - [No Intro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios
 - [Font Fix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios
 - [cnc-ddraw](https://github.com/CnCNet/cnc-ddraw) by CnCNet
