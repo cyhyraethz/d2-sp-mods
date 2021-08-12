@@ -22,7 +22,7 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
 ## Features
 
-Many of these features can be enabled and disable in the included config files
+Many of these features can be enabled and disable in the config files
 
 #### PlugY
 
@@ -72,20 +72,20 @@ Many of these features can be enabled and disable in the included config files
 
 ## Installation
 
-1. Backup your Diablo II installation and your Save folder before making any changes.
+1. Backup your Diablo II installation and your Save folder before making any changes
 
-2. Download the [most recent release](https://github.com/cyhyraethz/d2-sp-mods/releases)
-   and extract the files.
+2. Download the most recent release from the [releases page](https://github.com/cyhyraethz/d2-sp-mods/releases)
+   and extract the files
 
 3. If you're not already using patch 1.13c, copy all the files from the 1.13c folder
    into your Diablo II installation folder (e.g. C:\Program Files (x86)\Diablo II),
-   replacing existing files.
+   replacing existing files
 
 4. Copy all the files from the extracted Diablo II folder into your Diablo II
-   installation folder, merging directories and replacing files as needed.
+   installation folder, merging directories and replacing files as needed
 
 5. Start the game with PlugY.exe, which is the executable you will now be using
-   for launching the game.
+   for launching the game
 
 ## Notes
 
