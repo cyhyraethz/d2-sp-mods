@@ -85,3 +85,15 @@ however I may still miss some.
 
 5. Start the game with PlugY.exe, which is the executable you will now be using
    for launching the game.
+
+## Credits
+
+- [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas
+- [BaseMod](https://d2mods.info/forum/viewtopic.php?t=65492) by devurandom
+- [Loot Filter](https://www.reddit.com/r/slashdiablo/comments/hw0dro/announcing_slash_bh_199/) by SlashDiablo
+- [D2HD](https://www.reddit.com/r/slashdiablo/comments/7z5uy1/hd_mod_and_maphack_new_release/) by SlashDiablo
+- [Giga Inventory](https://jonripley.com/gaming/Diablo/mods/gigainv) by Mhoram & Ravenswolf
+- [No Intro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios
+- [Font Fix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios
+- [cnc-ddraw](https://github.com/CnCNet/cnc-ddraw) by CnCNet
+- [SGD2FreeDisplayFix](https://github.com/mir-diablo-ii-tools/SlashGaming-Diablo-II-Free-Display-Fix) by SlashDiablo
