@@ -86,6 +86,13 @@ however I may still miss some.
 5. Start the game with PlugY.exe, which is the executable you will now be using
    for launching the game.
 
+## Resources
+
+- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - classic source of game information
+- [Stash Organizer](https://youdz.github.io/d2-stash-organizer/) - web app for organizing plugy stash
+- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - simple app for tracking found items
+- [r/diablo2](https://www.reddit.com/r/diablo2/) - active and helpful reddit community
+
 ## Credits
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas
