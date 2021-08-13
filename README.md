@@ -16,9 +16,17 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
 ### Additional Changes
 
-- Key stack size increased from 12 to 50
-- Tome stack size increased from 20 to 80
-- Arrow and bolt stack size increased to 500
+- Stack Size
+  - Key stack size increased from 12 to 50
+  - Tome stack size increased from 20 to 80
+  - Arrow and bolt stack size increased to 500
+
+- Town Cast
+  - Enable additional spells to be cast in town
+    - Teleport, Thunderstorm, Armageddon, Hurricane
+    - Charge, Leap, Shout, Battle Orders, Battle Command
+  - Allow some spells to be cast in Werewolf and Werebear
+    - Teleport, Shout, Battle Orders, Battle Command
 
 ## Features
 
