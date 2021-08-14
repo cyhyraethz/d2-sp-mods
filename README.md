@@ -80,20 +80,26 @@ Many of these features can be enabled and disable in the config files
 
 ## Installation
 
-1. Backup your Diablo II installation and your Save folder before making any changes
+1. Backup your Diablo II installation and your Save folder before making any changes.
 
 2. Download the most recent release from the [releases page](https://github.com/cyhyraethz/d2-sp-mods/releases)
-   and extract the files
+   and extract the files.
 
-3. If you're not already using patch 1.13c, copy all the files from the 1.13c folder
-   into your Diablo II installation folder (e.g. C:\Program Files (x86)\Diablo II),
-   replacing existing files
+3. If you're not already using patch 1.13c, copy all the files from the 1.13c
+   folder into your Diablo II installation folder, which should be located in
+   `C:\Program Files (x86)\Diablo II`, replacing existing files.
 
-4. Copy all the files from the extracted Diablo II folder into your Diablo II
-   installation folder, merging directories and replacing files as needed
+4. If you're downgrading from patch 1.14, copy your existing save folder,
+   which should be located in `C:\Users\username\Saved Games\Diablo II`,
+   into your Diablo II installation folder and rename it Save.
 
-5. Start the game with PlugY.exe, which is the executable you will now be using
-   for launching the game
+5. Copy all the files from the extracted Diablo II folder into your Diablo II
+   installation folder, merging directories and replacing files as needed.
+
+6. Start the game with PlugY.exe as administrator, which is the executable you will now
+   be using for launching the game. I recommend setting it to always run as administrator
+   by right clicking PlugY.exe, selecting `Properties`, going to the `Compatibility` tab,
+   and checking the `Run this program as an administrator` box.
 
 ## Notes
 
