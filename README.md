@@ -101,6 +101,28 @@ Many of these features can be enabled and disable in the config files
    by right clicking PlugY.exe, selecting `Properties`, going to the `Compatibility` tab,
    and checking the `Run this program as an administrator` box.
 
+## Troubleshooting
+
+Try the following steps if you have trouble getting the game working with cnc-ddraw
+
+Windows:
+
+- Open Registry Editor by right clicking `Start`, selecting `Run`, and executing regedit
+
+- Navigate to `HKEY_CURRENT_USER\Software\Blizzard Entertainment\Diablo II\VideoConfig`
+
+- Change the value of `Render` to 0
+
+Linux:
+
+- Select Diablo II in Lutris
+
+- Open `Wine configuration` and select the `Libraries` tab
+
+- Type ddraw into the `New override for library:` box
+
+- Click `Add`, select `Yes`, then click `OK`
+
 ## Notes
 
 Diablo Clone can be spawned by selling Stamina Potion to vendor in Hell Difficulty
