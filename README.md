@@ -1,34 +1,50 @@
-# Diablo II Single Player Mods
+## Diablo II Single Player Mods
 
 This is a mod pack containing my favorite single player mods for Diablo II
 
-## Included Mods
+### Included Mods
 
 - [PlugY](http://plugy.free.fr/en/index.html) - infinite personal and shared stash pages, free respecs, ladder only runewords, diablo clone, and uber tristram in single player, nihlathak portal stays open, /players count set automatically next game, etc (v14.02)
+
 - [BaseMod](https://www.moddb.com/mods/basemod) - auto gold pickup, spawn missing super uniques, gamble refresh button, ctrl click to move items, charms only work in part of expanded inventory, resistance scroll bug fix, auto set /nopickup, etc (v1.13.7)
+
 - [Loot Filter](https://github.com/cyhyraethz/slashdiablo-maphack-giga) - shows whether items are ethereal and how many sockets they have while on ground, shows possible stat ranges that items can roll, filters out trash like small gold piles, arrows, bolts, etc (v1.9.9)
+
 - [D2HD](https://github.com/IAmTrial/SlashDiablo-HD) - widescreen support to play at 1068x600 resolution (16:9 aspect ratio) instead of 800x600
+
 - [Giga Inventory](https://github.com/cyhyraethz/d2-giga-inv) - expands the inventory size of your character from a 4x10 grid to a 9x10 grid
+
 - [No Intro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) - replaces the intro videos with short, blank ones that don’t waste your time
+
 - [Font Fix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) - fixes 5s looking like 6s in one of the fonts the game uses
+
 - [cnc-ddraw](https://github.com/CnCNet/cnc-ddraw) - better lighting effects and shader support
+
 - [SGD2FreeDisplayFix](https://github.com/mir-diablo-ii-tools/SlashGaming-Diablo-II-Free-Display-Fix) - scrolling letters fix
 
 ### Additional Changes
 
 - Stack Size
+
   - Key stack size increased from 12 to 50
+
   - Tome stack size increased from 20 to 80
+
   - Arrow and bolt stack size increased to 500
 
 - Town Cast
+
   - Enable additional spells to be cast in town
+
     - Teleport, Thunderstorm, Armageddon, Hurricane
+
     - Charge, Leap, Shout, Battle Orders, Battle Command
+
   - Allow some spells to be cast in Werewolf and Werebear
+
     - Teleport, Shout, Battle Orders, Battle Command
 
-## Features
+### Features
 
 Many of these features can be enabled and disable in the config files
 
@@ -78,30 +94,21 @@ Many of these features can be enabled and disable in the config files
 - Enables ctrl + right click to drop items from inventory/stash/cube
 - Enables shift + left click to identify in inventory/stash/cube
 
-## Installation
+### Installation
 
-1. Backup your Diablo II installation and your Save folder before making any changes.
+1. Backup your characters and the game folder before making any changes.
 
-2. Download the most recent release from the [releases page](https://github.com/cyhyraethz/d2-sp-mods/releases)
-   and extract the files.
+2. Download the most recent release from the [releases page](https://github.com/cyhyraethz/d2-sp-mods/releases) and extract the files.
 
-3. If you're not already using patch 1.13c, copy all the files from the 1.13c
-   folder into your Diablo II installation folder, which should be located in
-   `C:\Program Files (x86)\Diablo II`, replacing existing files.
+3. If you're not already using patch 1.13c, copy the files from the extracted 1.13c folder into the game folder, which should be located in `C:\Program Files (x86)\Diablo II`, replacing existing files.
 
-4. If you're downgrading from patch 1.14, copy your existing save folder,
-   which should be located in `C:\Users\username\Saved Games\Diablo II`,
-   into your Diablo II installation folder and rename it Save.
+4. If you're downgrading from patch 1.14, copy your existing save folder, which should be located in `C:\Users\username\Saved Games\Diablo II`, into the game folder and rename it "Save".
 
-5. Copy all the files from the extracted Diablo II folder into your Diablo II
-   installation folder, merging directories and replacing files as needed.
+5. Copy the files from the extracted Diablo II folder into the game folder, merging and replacing as needed.
 
-6. Start the game with PlugY.exe as administrator, which is the executable you will now
-   be using for launching the game. I recommend setting it to always run as administrator
-   by right clicking PlugY.exe, selecting `Properties`, going to the `Compatibility` tab,
-   and checking the `Run this program as an administrator` box.
+6. Start the game with PlugY.exe as administrator, which is the executable you will now be using for launching the game. I recommend setting it to always run as administrator by right clicking PlugY.exe, selecting `Properties`, going to the `Compatibility` tab, and checking the `Run this program as an administrator` box.
 
-## Troubleshooting
+### Troubleshooting
 
 Try the following steps if you have trouble getting the game working with cnc-ddraw
 
@@ -123,22 +130,22 @@ Linux:
 
 - Click `Add`, select `Yes`, then click `OK`
 
-## Notes
+### Notes
 
 Diablo Clone can be spawned by selling Stamina Potion to vendor in Hell Difficulty
 
-## Warning
+### Warning
 
 Items may be lost if character is used in a game with standard inventory size
 
-## Resources
+### Resources
 
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - classic source of game information
 - [Stash Organizer](https://youdz.github.io/d2-stash-organizer/) - web app for organizing plugy stash
 - [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - simple app for tracking found items
-- [r/diablo2](https://www.reddit.com/r/diablo2/) - active and helpful reddit community
+- [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
 
-## Credits
+### Credits
 
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas
 - [BaseMod](https://www.moddb.com/mods/basemod) by devurandom
