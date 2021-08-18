@@ -138,7 +138,23 @@ Linux:
 
 ### Notes
 
-Diablo Clone can be spawned by selling Stamina Potion to vendor in Hell Difficulty
+Diablo Clone can be spawned by selling a Stamina Potion in Hell Difficulty
+
+Drop rates are unaltered and maphack is disable in the config files by default
+
+If you would prefer to play with improved drop rates you can:
+
+- Enable Linear MF in BaseMod.ini to remove diminishing returns on Magic Find
+
+- Enable Perfect Drop in BaseMod.ini to force all items to drop perfect and repaired
+
+If you would prefer to play using maphack you can enable these features:
+
+- Reveal Map, Show Monsters, Show Missiles, Show Chests, Force Light Radius
+
+- Remove Weather, Infravision, Display Level Names, Draw Path, Draw Destination
+
+Maphack features can be enabled and disable by ctrl clicking on Settings in-game
 
 ### Warning
 
