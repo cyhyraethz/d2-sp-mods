@@ -44,6 +44,12 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
     - Teleport, Shout, Battle Orders, Battle Command
 
+- Quest Bug
+
+  - Always get quest drops from Andariel
+
+  - Even if you forget to talk to Warriv
+
 ### Features
 
 Many of these features can be enabled and disable in the config files
