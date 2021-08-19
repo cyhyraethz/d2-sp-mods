@@ -10,7 +10,7 @@ This is a mod pack containing my favorite single player mods for Diablo II
 
 - [Loot Filter](https://github.com/cyhyraethz/slashdiablo-maphack-giga) - shows whether items are ethereal and how many sockets they have while on ground, shows possible stat ranges that items can roll, filters out trash like small gold piles, arrows, bolts, etc (v1.9.9)
 
-- [D2HD](https://github.com/IAmTrial/SlashDiablo-HD) - widescreen support to play at 1068x600 resolution (16:9 aspect ratio) instead of 800x600
+- [SGD2FreeRes](https://github.com/mir-diablo-ii-tools/SlashGaming-Diablo-II-Free-Resolution) - widescreen support for playing at 1068x600 resolution (16:9) instead of 800x600
 
 - [Giga Inventory](https://github.com/cyhyraethz/d2-giga-inv) - expands the inventory size of your character from a 4x10 grid to a 9x10 grid
 
@@ -172,7 +172,7 @@ Items may be lost if character is used in a game with standard inventory size
 - [PlugY](http://plugy.free.fr/en/index.html) by Yohann Nicolas
 - [BaseMod](https://www.moddb.com/mods/basemod) by devurandom
 - [Loot Filter](https://github.com/cyhyraethz/slashdiablo-maphack-giga) by SlashDiablo
-- [D2HD](https://github.com/IAmTrial/SlashDiablo-HD) by SlashDiablo
+- [SGD2FreeRes](https://github.com/mir-diablo-ii-tools/SlashGaming-Diablo-II-Free-Resolution) by SlashDiablo
 - [Giga Inventory](https://github.com/cyhyraethz/d2-giga-inv) by Mhoram & Ravenswolf
 - [No Intro](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#nointro) by SnakeByteStudios
 - [Font Fix](https://www.snakebytestudios.com/projects/mods/diablo-2-mods/#fixedfont) by SnakeByteStudios
