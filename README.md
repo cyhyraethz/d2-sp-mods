@@ -136,7 +136,41 @@ Linux:
 
 - Click `Add`, select `Yes`, then click `OK`
 
-### Notes
+### How to Use Loot Filter
+
+No items are hidden by loot filter with default settings
+
+To change loot filter settings:
+
+- Ctrl click on `Settings` to open panel
+
+- Left click on the `Item` tab near top of panel
+
+From there you can adjust the filter level and ping level
+
+I recommend keeping it on filter level 0 for new characters
+
+At higher levels it can be useful to change filter level to 1 or 2
+
+A brief explanation of filter levels:
+
+- 0: Nothing is filtered at this level so all item drops are visible on the ground
+
+- 1: Filter many white and blue items, small gold piles, low level potions, scrolls, etc
+
+- 2: Same as 1 but with no notifications for Flawless Amethysts, Ral Runes, or Hel Runes
+
+- 3: Filter all white, blue, and rare items not whitelisted (use at your own risk)
+
+Ping level controls item drop notifications, lower being more strict
+
+I recommend ping level 6 when first starting out for the most noficiations
+
+Later on it may be useful to reduce it to ping level 4 or 5 to get less notifications
+
+You can use ping level 3 or lower if you only want to get notifications for high end items
+
+### Additional Notes
 
 Diablo Clone can be spawned by selling a Stamina Potion in Hell Difficulty
 
