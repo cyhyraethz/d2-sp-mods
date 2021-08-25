@@ -196,9 +196,10 @@ Items may be lost if character is used in a game with standard inventory size
 
 ### Resources
 
-- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - classic source of game information
+- [Silospen Drop Calculator](https://dropcalc.silospen.com/item.php?np=1&ng=1&mf=0&dec=false&mk=&diff=&qual=&ver=-1&version=113) - web app for finding drop chance
+- [The Arreat Summit](http://classic.battle.net/diablo2exp/) - original source of game information
 - [Stash Organizer](https://youdz.github.io/d2-stash-organizer/) - web app for organizing plugy stash
-- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - simple app for tracking found items
+- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - web app for tracking grail progress
 - [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
 
 ### Credits
