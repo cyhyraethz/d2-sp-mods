@@ -177,10 +177,30 @@ Items may be lost if character is used in a game with standard inventory size.
 
 ### Resources
 
-- [Silospen Drop Calculator](https://dropcalc.silospen.com/item.php?np=1&ng=1&mf=0&dec=false&mk=&diff=&qual=&ver=-1&version=113) - web app for finding drop chance
+Run Counter:
+
+- [Advanced Run Counter](https://www.diabloii.net/forums/threads/spf-community-and-links.961215/post-8832152) - basic, recommended for Mac/Linux users
+- [MF Run Counter](https://github.com/oskros/MF_run_counter) - feature rich, recommended for Windows users
+
+Drop Calculator:
+
+- [Silospen Drop Calculator](https://dropcalc.silospen.com/item.php?np=1&ng=1&mf=0&dec=false&mk=&diff=&qual=&ver=-1&version=113) - website for calculating drop rates
+
+General Information:
+
 - [The Arreat Summit](http://classic.battle.net/diablo2exp/) - original source of game information
-- [Stash Organizer](https://youdz.github.io/d2-stash-organizer/) - web app for organizing plugy stash
-- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - web app for tracking grail progress
+- [Diablo 2 Wiki](https://diablo2.diablowiki.net/Main_Page) - wiki pages for every aspect of the game
+
+Item Manager:
+
+- [D2 Item Manager](https://youdz.github.io/d2-stash-organizer/) - search and organize plugy stash
+
+Holy Grail:
+
+- [Grail Tracker](https://d2-holy-grail.herokuapp.com/) - website for tracking grail progress
+
+Community:
+
 - [r/diablo2](https://www.reddit.com/r/diablo2/) - helpful and active reddit community
 
 ### Credits
