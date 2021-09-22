@@ -9,7 +9,8 @@
         "Ingame Resolutions": [
             "640x480",
             "800x600",
-            "1068x600"
+            "1068x600",
+            "1280x720"
         ],
         "Ingame Resolution Mode": 2,
         "Main Menu Resolution": "800x600",
